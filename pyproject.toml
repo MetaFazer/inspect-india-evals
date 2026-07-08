@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "inspect-india-evals"
+version = "0.1.0"
+description = "India-specific AI safety, bias, and fairness evaluations for Inspect AI"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = [
+    "inspect-ai",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+    "mlflow>=2",
+]
+viz = [
+    "plotly>=5",
+]
+
+[project.scripts]
+india-view = "india_evals.view_plugin.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/ac265640/inspect-india-evals"
+
+[tool.setuptools.packages.find]
+include = ["india_evals*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

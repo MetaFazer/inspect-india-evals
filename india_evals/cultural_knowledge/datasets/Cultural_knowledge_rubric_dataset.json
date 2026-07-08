@@ -1,0 +1,3302 @@
+[
+  {
+    "Scenario Id": 1,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Article 21 of the Indian Constitution?",
+    "rubric": [
+      "Mentions that article 21 guarantees the right to life and personal liberty to every person",
+      "Mentions that not just citizens",
+      "Mentions that the Supreme Court has expanded its scope to include right to livelihood",
+      "Mentions that and a dignified life"
+    ]
+  },
+  {
+    "Scenario Id": 2,
+    "Domain": "Indian Constitution",
+    "Questions": "Which article of the Indian Constitution abolishes untouchability?",
+    "rubric": [
+      "Mentions that article 17 abolishes untouchability and forbids its practice in any form",
+      "Mentions that enforcement of any disability arising out of untouchability is an offence punishable by law",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 3,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the Preamble of the Indian Constitution and what ideals does it enshrine?",
+    "rubric": [
+      "Mentions that the Preamble declares India a Sovereign",
+      "Mentions that democratic Republic securing Justice",
+      "Mentions that and Fraternity to all citizens",
+      "Mentions that 'Socialist' and 'Secular' were added by the 42nd Amendment in 1976"
+    ]
+  },
+  {
+    "Scenario Id": 4,
+    "Domain": "Indian Constitution",
+    "Questions": "What does Article 32 of the Indian Constitution provide?",
+    "rubric": [
+      "Mentions that article 32 gives citizens the right to move the Supreme Court for enforcement of fundamental rights",
+      "Mentions that ambedkar called it the 'heart and soul' of the Constitution",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 5,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the 73rd Constitutional Amendment?",
+    "rubric": [
+      "Mentions that the 73rd Amendment (1992) gave constitutional status to Panchayati Raj institutions",
+      "Mentions that mandating elections",
+      "Mentions that reservation for women and SCs/STs",
+      "Mentions that and devolution of powers to village-level governance"
+    ]
+  },
+  {
+    "Scenario Id": 6,
+    "Domain": "Indian Constitution",
+    "Questions": "What are Directive Principles of State Policy?",
+    "rubric": [
+      "Mentions that dPSPs are guidelines in Part IV (Articles 36–51) that direct the state in policymaking for social and economic welfare",
+      "Mentions that they are non-justiciable but fundamental to governance",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 7,
+    "Domain": "Indian Constitution",
+    "Questions": "What is Article 356 and why is it controversial?",
+    "rubric": [
+      "Mentions that article 356 allows the President to impose President's Rule in a state if constitutional governance breaks down",
+      "Mentions that it is controversial because it has been misused historically for political purposes;",
+      "Mentions that the Sarkaria Commission recommended restrictions",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 8,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the difference between fundamental rights and directive principles?",
+    "rubric": [
+      "Mentions that fundamental Rights (Part III) are justiciable and enforceable in courts",
+      "Mentions that protecting individual liberties",
+      "Mentions that directive Principles (Part IV) are non-justiciable socio-economic goals guiding state policy",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 9,
+    "Domain": "Indian Constitution",
+    "Questions": "What does the Right to Education Act (Article 21A) guarantee?",
+    "rubric": [
+      "Mentions that inserted by the 86th Amendment (2002)",
+      "Mentions that makes free and compulsory education a fundamental right for children aged 6–14 years",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 10,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the Kesavananda Bharati case?",
+    "rubric": [
+      "Mentions that the 1973 Supreme Court ruling established the Basic Structure Doctrine",
+      "Mentions that holding that Parliament cannot amend the Constitution in a way that destroys its basic structure",
+      "Mentions that including democracy",
+      "Mentions that and rule of law"
+    ]
+  },
+  {
+    "Scenario Id": 11,
+    "Domain": "Indian Constitution",
+    "Questions": "What is Article 370 and what happened to it in 2019?",
+    "rubric": [
+      "Mentions that article 370 granted special autonomous status to Jammu & Kashmir",
+      "Mentions that in August 2019",
+      "Mentions that the Indian government revoked it",
+      "Mentions that reorganizing J&K into two Union Territories:"
+    ]
+  },
+  {
+    "Scenario Id": 12,
+    "Domain": "Indian Constitution",
+    "Questions": "What are the qualifications to become the President of India?",
+    "rubric": [
+      "Mentions that the President must be an Indian citizen",
+      "Mentions that at least 35 years old",
+      "Mentions that eligible to be a Lok Sabha member",
+      "Mentions that and must not hold any office of profit"
+    ]
+  },
+  {
+    "Scenario Id": 13,
+    "Domain": "Indian Constitution",
+    "Questions": "What is Article 44 and why has it remained unimplemented?",
+    "rubric": [
+      "Mentions that article 44 is a DPSP directing the state to secure a Uniform Civil Code for all citizens",
+      "Mentions that it remains unimplemented due to political sensitivity and opposition from minority religious communities",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 14,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the role of the Election Commission of India under the Constitution?",
+    "rubric": [
+      "Mentions that articles 324–329 establish the Election Commission as an independent body to superintend",
+      "Mentions that and control elections to Parliament",
+      "Mentions that state legislatures",
+      "Mentions that and the offices of President and Vice President"
+    ]
+  },
+  {
+    "Scenario Id": 15,
+    "Domain": "Indian Constitution",
+    "Questions": "What does Article 19 guarantee?",
+    "rubric": [
+      "Mentions that article 19 guarantees six freedoms to citizens:",
+      "Mentions that speech and expression",
+      "Mentions that and profession",
+      "Mentions that these can be reasonably restricted by the state on grounds like security"
+    ]
+  },
+  {
+    "Scenario Id": 16,
+    "Domain": "Indian Constitution",
+    "Questions": "What is habeas corpus and under which article can it be invoked?",
+    "rubric": [
+      "Mentions that habeas corpus is a writ requiring a person under arrest to be brought before a court",
+      "Mentions that it can be invoked under Article 32 (Supreme Court) or Article 226 (High Courts) to challenge unlawful detention",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 17,
+    "Domain": "Indian Constitution",
+    "Questions": "What are the emergency provisions in the Indian Constitution?",
+    "rubric": [
+      "Mentions that national Emergency (Article 352) for war/external aggression/armed rebellion;",
+      "Mentions that president's Rule (Article 356) for state constitutional failure;",
+      "Mentions that financial Emergency (Article 360) for financial instability",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 18,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Schedule 9 of the Indian Constitution?",
+    "rubric": [
+      "Mentions that the Ninth Schedule contains laws that are protected from judicial review",
+      "Mentions that added by the 1st Amendment (1951) to protect land reform laws",
+      "Mentions that it has been expanded significantly and its scope was debated in the IR Coelho case (2007)",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 19,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional basis for reservations in India?",
+    "rubric": [
+      "Mentions that articles 15(4) and 16(4) allow the state to make special provisions for socially and educationally backward classes",
+      "Mentions that and STs in education and public employment",
+      "Mentions that article 46 (DPSP) also directs promotion of weaker sections",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 20,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional position of the Prime Minister?",
+    "rubric": [
+      "Mentions that the Prime Minister is appointed by the President (Article 75) and heads the Council of Ministers",
+      "Mentions that the President acts on the advice of the Council of Ministers (44th Amendment)",
+      "Mentions that making the PM the real executive head",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 21,
+    "Domain": "Indian Constitution",
+    "Questions": "What is Article 51A and what does it contain?",
+    "rubric": [
+      "Mentions that article 51A lists Fundamental Duties of citizens",
+      "Mentions that added by the 42nd Amendment (1976)",
+      "Mentions that these include respecting the Constitution",
+      "Mentions that promoting harmony"
+    ]
+  },
+  {
+    "Scenario Id": 22,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the 42nd Constitutional Amendment?",
+    "rubric": [
+      "Mentions that called the 'Mini Constitution'",
+      "Mentions that the 42nd Amendment (1976) during the Emergency added 'Socialist' and 'Secular' to the Preamble",
+      "Mentions that added Fundamental Duties",
+      "Mentions that curtailed judicial review"
+    ]
+  },
+  {
+    "Scenario Id": 23,
+    "Domain": "Indian Constitution",
+    "Questions": "What are the constitutional safeguards for Scheduled Tribes?",
+    "rubric": [
+      "Mentions that the Constitution provides reservations (Articles 15",
+      "Mentions that a National Commission for STs (Article 338A)",
+      "Mentions that fifth and Sixth Schedules for administration of tribal areas",
+      "Mentions that and PESA (1996) for gram sabha powers"
+    ]
+  },
+  {
+    "Scenario Id": 24,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the procedure for impeachment of the President?",
+    "rubric": [
+      "Mentions that under Article 61",
+      "Mentions that the President can be impeached for violation of the Constitution",
+      "Mentions that charges must be passed by a two-thirds majority of the total membership of either House after a 14-day notice",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 25,
+    "Domain": "Indian Constitution",
+    "Questions": "What does Article 300A say about the right to property?",
+    "rubric": [
+      "Mentions that article 300A states that no person shall be deprived of their property save by authority of law",
+      "Mentions that the Right to Property was removed as a Fundamental Right by the 44th Amendment (1978) and became a legal right",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 26,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the role of the Comptroller and Auditor General of India?",
+    "rubric": [
+      "Mentions that the CAG (Article 148) audits the accounts of the Union and states",
+      "Mentions that ensuring financial accountability",
+      "Mentions that the CAG's reports are tabled in Parliament and state legislatures and are examined by the Public Accounts Committee",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 27,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Article 263?",
+    "rubric": [
+      "Mentions that article 263 provides for the establishment of an Inter-State Council to resolve disputes and coordinate policy between states and the Centre",
+      "Mentions that promoting cooperative federalism",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 28,
+    "Domain": "Indian Constitution",
+    "Questions": "What is a Money Bill under the Indian Constitution?",
+    "rubric": [
+      "Mentions that a Money Bill (Article 110) deals only with taxation",
+      "Mentions that or expenditure from the Consolidated Fund of India",
+      "Mentions that it can only be introduced in the Lok Sabha and the Rajya Sabha has limited powers over it",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 29,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional significance of the 101st Amendment?",
+    "rubric": [
+      "Mentions that the 101st Amendment (2016) introduced the Goods and Services Tax (GST)",
+      "Mentions that creating a unified indirect tax system",
+      "Mentions that it inserted Articles 246A",
+      "Mentions that establishing the GST Council"
+    ]
+  },
+  {
+    "Scenario Id": 30,
+    "Domain": "Indian Constitution",
+    "Questions": "What are the constitutional provisions for linguistic minorities?",
+    "rubric": [
+      "Mentions that articles 29 and 30 protect the rights of minorities to conserve their culture and establish educational institutions",
+      "Mentions that article 347 allows recognition of a regional language if a substantial population demands it",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 31,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Article 368?",
+    "rubric": [
+      "Mentions that article 368 provides the procedure for amending the Constitution",
+      "Mentions that some provisions require a simple majority",
+      "Mentions that others a two-thirds majority of Parliament",
+      "Mentions that and some also need ratification by at least half the state legislatures"
+    ]
+  },
+  {
+    "Scenario Id": 32,
+    "Domain": "Indian Constitution",
+    "Questions": "What does the Sixth Schedule of the Indian Constitution deal with?",
+    "rubric": [
+      "Mentions that the Sixth Schedule provides for the administration of tribal areas in Assam",
+      "Mentions that and Mizoram through Autonomous District Councils with legislative",
+      "Mentions that and executive powers",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 33,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional basis for the National Human Rights Commission?",
+    "rubric": [
+      "Mentions that the NHRC was established under the Protection of Human Rights Act",
+      "Mentions that constitutionally",
+      "Mentions that it operates under Article 32 and Articles 12–35 framework to protect fundamental rights",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 34,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the Mandal Commission and Article 16(4)?",
+    "rubric": [
+      "Mentions that the Mandal Commission (1980) recommended 27% reservations for OBCs in central government jobs under Article 16(4)",
+      "Mentions that implemented in 1990",
+      "Mentions that it led to political upheaval and was upheld by the Supreme Court in Indra Sawhney (1992)",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 35,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional position of Governor of a state?",
+    "rubric": [
+      "Mentions that the Governor (Article 153–167) is appointed by the President and acts as the constitutional head of the state",
+      "Mentions that the Governor acts on the advice of the Council of Ministers headed by the Chief Minister",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 36,
+    "Domain": "Indian Constitution",
+    "Questions": "What does Article 12 define?",
+    "rubric": [
+      "Mentions that article 12 defines 'State' for the purpose of fundamental rights to include the Government of India",
+      "Mentions that state governments and legislatures",
+      "Mentions that and all local or other authorities within or under the control of the Government",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 37,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional significance of zero hour in Parliament?",
+    "rubric": [
+      "Mentions that zero Hour (after Question Hour at noon) is not mentioned in the Constitution or Rules of Procedure but is a convention since 1962 allowing MPs to raise urgent public matters without prior notice",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 38,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Article 324 in Indian elections?",
+    "rubric": [
+      "Mentions that article 324 vests superintendence",
+      "Mentions that and control of elections in the Election Commission of India",
+      "Mentions that making it a constitutionally independent body free from executive interference",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 39,
+    "Domain": "Indian Constitution",
+    "Questions": "What does the 97th Constitutional Amendment deal with?",
+    "rubric": [
+      "Mentions that the 97th Amendment (2011) gave constitutional status to cooperative societies",
+      "Mentions that added 'co-operative societies' in Article 19(1)(c)",
+      "Mentions that inserted Article 43B (DPSP)",
+      "Mentions that and added Part IXB on co-operative societies"
+    ]
+  },
+  {
+    "Scenario Id": 40,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the Representation of the People Act in Indian democracy?",
+    "rubric": [
+      "Mentions that the RPA (1950 and 1951) provides the legislative framework for delimitation of constituencies",
+      "Mentions that qualifications of voters",
+      "Mentions that election procedures",
+      "Mentions that and grounds for disqualification"
+    ]
+  },
+  {
+    "Scenario Id": 41,
+    "Domain": "Indian Constitution",
+    "Questions": "What are writ jurisdictions available under the Indian Constitution?",
+    "rubric": [
+      "Mentions that under Articles 32 and 226",
+      "Mentions that courts can issue five writs:",
+      "Mentions that habeas Corpus (illegal detention)",
+      "Mentions that mandamus (compel duty)"
+    ]
+  },
+  {
+    "Scenario Id": 42,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Article 131?",
+    "rubric": [
+      "Mentions that article 131 gives the Supreme Court original jurisdiction in disputes between states or between states and the Centre involving questions of law or fact on which the existence of a legal right depends",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 43,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional basis for the Finance Commission?",
+    "rubric": [
+      "Mentions that article 280 provides for a Finance Commission every five years to recommend distribution of tax revenues between Centre and states and principles for grants-in-aid",
+      "Mentions that ensuring fiscal federalism",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 44,
+    "Domain": "Indian Constitution",
+    "Questions": "What is a constitutional amendment and how does it differ from ordinary legislation?",
+    "rubric": [
+      "Mentions that a constitutional amendment under Article 368 requires a special majority (two-thirds of members present and voting",
+      "Mentions that plus majority of total membership) in both Houses",
+      "Mentions that ordinary legislation needs a simple majority",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 45,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the Right to Information and its constitutional basis?",
+    "rubric": [
+      "Mentions that rTI Act (2005) derives from Article 19(1)(a) — freedom of speech and expression",
+      "Mentions that which the Supreme Court in various judgments held includes the right to know about government functioning",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 46,
+    "Domain": "Indian Constitution",
+    "Questions": "What is Article 39A about?",
+    "rubric": [
+      "Mentions that article 39A (DPSP) directs the state to provide free legal aid to ensure that opportunities for securing justice are not denied to any citizen by reason of economic or other disabilities",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 47,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional significance of the National Judicial Appointments Commission case?",
+    "rubric": [
+      "Mentions that the Supreme Court struck down the 99th Amendment and NJAC Act",
+      "Mentions that restoring the collegium system for judicial appointments",
+      "Mentions that reaffirming judicial independence as part of the Basic Structure",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 48,
+    "Domain": "Indian Constitution",
+    "Questions": "What does Article 243 deal with?",
+    "rubric": [
+      "Mentions that article 243 (inserted by 73rd Amendment) defines Gram Sabha",
+      "Mentions that panchayat areas",
+      "Mentions that and powers of Panchayats as institutions of self-governance at village",
+      "Mentions that and district levels"
+    ]
+  },
+  {
+    "Scenario Id": 49,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the 104th Constitutional Amendment?",
+    "rubric": [
+      "Mentions that the 104th Amendment (2020) extended the reservation for SCs and STs in Lok Sabha and state assemblies by 10 years (until 2030) but ended the reserved seats for Anglo-Indians",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 50,
+    "Domain": "Indian Constitution",
+    "Questions": "What are the anti-defection provisions in the Indian Constitution?",
+    "rubric": [
+      "Mentions that the Tenth Schedule (added by 52nd Amendment",
+      "Mentions that 1985) disqualifies an MP/MLA who voluntarily gives up party membership or votes against party whip without prior permission",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 51,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of Article 263 Inter-State Council?",
+    "rubric": [
+      "Mentions that the Inter-State Council",
+      "Mentions that established under Article 263",
+      "Mentions that facilitates coordination between states and Centre on policy matters",
+      "Mentions that though it is non-binding and recommendations depend on political will to implement"
+    ]
+  },
+  {
+    "Scenario Id": 52,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional basis for environmental protection in India?",
+    "rubric": [
+      "Mentions that article 48A (DPSP) directs the state to protect the environment",
+      "Mentions that article 51A(g) makes it a fundamental duty of citizens",
+      "Mentions that the Supreme Court has read environmental rights into Article 21 (right to life)",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 53,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the Second Schedule of the Constitution?",
+    "rubric": [
+      "Mentions that the Second Schedule prescribes salaries and allowances of the President",
+      "Mentions that supreme Court and High Court judges",
+      "Mentions that and Deputy Speaker",
+      "Mentions that insulating them from political pressure"
+    ]
+  },
+  {
+    "Scenario Id": 54,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the role of Lok Sabha Speaker under the Constitution?",
+    "rubric": [
+      "Mentions that the Speaker (Article 93) presides over Lok Sabha",
+      "Mentions that maintains order",
+      "Mentions that certifies Money Bills",
+      "Mentions that decides questions of disqualification under the Tenth Schedule"
+    ]
+  },
+  {
+    "Scenario Id": 55,
+    "Domain": "Indian Constitution",
+    "Questions": "What does the Fifth Schedule of the Indian Constitution deal with?",
+    "rubric": [
+      "Mentions that the Fifth Schedule provides for administration and control of Scheduled Areas and Scheduled Tribes in states other than Assam",
+      "Mentions that giving the Governor special powers",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 56,
+    "Domain": "Indian Constitution",
+    "Questions": "What is Article 164(1A) about?",
+    "rubric": [
+      "Mentions that article 164(1A) restricts the size of the Council of Ministers to 15% of the total strength of the state legislature",
+      "Mentions that added by the 91st Amendment (2003) to control the proliferation of ministers",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 57,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional significance of the National Emergency of 1975?",
+    "rubric": [
+      "Mentions that the Emergency proclaimed under Article 352 (1975–77) suspended fundamental rights",
+      "Mentions that led to abuse of Article 356",
+      "Mentions that and resulted in the 44th Amendment (1978) which made future emergencies harder to impose and restored certain safeguards",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 58,
+    "Domain": "Indian Constitution",
+    "Questions": "What does Article 25 guarantee?",
+    "rubric": [
+      "Mentions that article 25 guarantees freedom of conscience and the right to freely profess",
+      "Mentions that and propagate religion",
+      "Mentions that subject to public order",
+      "Mentions that and to other fundamental rights"
+    ]
+  },
+  {
+    "Scenario Id": 59,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the significance of the 103rd Constitutional Amendment?",
+    "rubric": [
+      "Mentions that the 103rd Amendment (2019) introduced 10% reservation for Economically Weaker Sections (EWS) among the general category in education and public employment",
+      "Mentions that inserting clauses in Articles 15 and 16",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 60,
+    "Domain": "Indian Constitution",
+    "Questions": "What is the constitutional status of Delhi?",
+    "rubric": [
+      "Mentions that delhi is a Union Territory with special status under Article 239AA (69th Amendment",
+      "Mentions that having its own Legislative Assembly with powers over all subjects except public order",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 61,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is Ayushman Bharat and how does it work?",
+    "rubric": [
+      "Mentions that ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY) provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary hospitalization to over 10 crore poor and vulnerable families",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 62,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the role of AIIMS in India's healthcare system?",
+    "rubric": [
+      "Mentions that all India Institutes of Medical Sciences are autonomous public medical colleges providing tertiary care",
+      "Mentions that medical education",
+      "Mentions that and research",
+      "Mentions that the original AIIMS Delhi was established in 1956;"
+    ]
+  },
+  {
+    "Scenario Id": 63,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Health Mission (NHM)?",
+    "rubric": [
+      "Mentions that nHM (launched 2013",
+      "Mentions that merging NRHM and NUHM) strengthens healthcare delivery across rural and urban India through improved infrastructure",
+      "Mentions that human resources",
+      "Mentions that disease control"
+    ]
+  },
+  {
+    "Scenario Id": 64,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of tuberculosis in India?",
+    "rubric": [
+      "Mentions that india has the world's highest TB burden",
+      "Mentions that accounting for about 26% of global TB cases",
+      "Mentions that the National TB Elimination Programme aims to eliminate TB by 2025",
+      "Mentions that five years ahead of the global target"
+    ]
+  },
+  {
+    "Scenario Id": 65,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Janani Suraksha Yojana?",
+    "rubric": [
+      "Mentions that jSY is a safe motherhood intervention under NHM that promotes institutional delivery among poor pregnant women through cash incentives to mother and ASHA workers",
+      "Mentions that reducing maternal and neonatal mortality",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 66,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the role of ASHA workers in rural India?",
+    "rubric": [
+      "Mentions that accredited Social Health Activists are community health workers trained to act as an interface between the community and public health system",
+      "Mentions that providing basic healthcare",
+      "Mentions that and facilitating access to services at the village level",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 67,
+    "Domain": "Indian Healthcare",
+    "Questions": "What are the major causes of maternal mortality in India?",
+    "rubric": [
+      "Mentions that leading causes include haemorrhage",
+      "Mentions that hypertensive disorders",
+      "Mentions that unsafe abortions",
+      "Mentions that and obstructed labour"
+    ]
+  },
+  {
+    "Scenario Id": 68,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Indian Medical Council Act and what replaced it?",
+    "rubric": [
+      "Mentions that the Indian Medical Council Act (1956) governed medical education and registration through the MCI",
+      "Mentions that it was repealed and replaced by the National Medical Commission Act (2020)",
+      "Mentions that establishing the NMC with broader regulatory powers",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 69,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of the Essential Medicines List in India?",
+    "rubric": [
+      "Mentions that india's National List of Essential Medicines (NLEM) lists medicines considered priority for public health needs",
+      "Mentions that medicines on NLEM are subject to price control under DPCO",
+      "Mentions that making them affordable",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 70,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Drug Price Control Order (DPCO)?",
+    "rubric": [
+      "Mentions that dPCO is issued under the Essential Commodities Act and empowers the National Pharmaceutical Pricing Authority (NPPA) to fix ceiling prices for essential medicines listed under NLEM",
+      "Mentions that ensuring affordability",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 71,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the prevalence of malnutrition in India?",
+    "rubric": [
+      "Mentions that according to NFHS-5 (2019-21)",
+      "Mentions that 35.5% of children under 5 are stunted",
+      "Mentions that 19.3% are wasted",
+      "Mentions that and 32.1% are underweight"
+    ]
+  },
+  {
+    "Scenario Id": 72,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Pradhan Mantri Matru Vandana Yojana?",
+    "rubric": [
+      "Mentions that pMMVY is a maternity benefit programme providing ₹5,000 in three instalments to pregnant and lactating mothers for their first live birth",
+      "Mentions that compensating for wage loss and improving maternal and child health",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 73,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of diabetes in India?",
+    "rubric": [
+      "Mentions that india has over 77 million diabetics",
+      "Mentions that making it the second largest after China",
+      "Mentions that type 2 diabetes is rising due to urbanisation",
+      "Mentions that sedentary lifestyles"
+    ]
+  },
+  {
+    "Scenario Id": 74,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National AIDS Control Programme?",
+    "rubric": [
+      "Mentions that nACP (launched 1992) is implemented by NACO and focuses on prevention",
+      "Mentions that and treatment of HIV/AIDS through free ART",
+      "Mentions that targeted interventions for high-risk groups",
+      "Mentions that iCTC services"
+    ]
+  },
+  {
+    "Scenario Id": 75,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of the Clinical Establishments Act, 2010?",
+    "rubric": [
+      "Mentions that the Act mandates registration and regulation of clinical establishments (hospitals",
+      "Mentions that clinics) to ensure minimum standards of facilities and services",
+      "Mentions that though many states have not adopted it",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 76,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of cardiovascular diseases in India?",
+    "rubric": [
+      "Mentions that cVDs are the leading cause of death in India",
+      "Mentions that responsible for 28% of all deaths",
+      "Mentions that premature CVD mortality is high due to hypertension",
+      "Mentions that and lack of awareness about risk factors"
+    ]
+  },
+  {
+    "Scenario Id": 77,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Rashtriya Bal Swasthya Karyakram (RBSK)?",
+    "rubric": [
+      "Mentions that rBSK provides child health screening and early intervention services for children 0–18 years for 4Ds:",
+      "Mentions that defects at birth",
+      "Mentions that and Developmental delays",
+      "Mentions that through District Early Intervention Centres"
+    ]
+  },
+  {
+    "Scenario Id": 78,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the role of the Central Drugs Standard Control Organisation?",
+    "rubric": [
+      "Mentions that cDSCO is India's national regulatory authority for cosmetics",
+      "Mentions that pharmaceuticals",
+      "Mentions that and medical devices",
+      "Mentions that it approves new drugs"
+    ]
+  },
+  {
+    "Scenario Id": 79,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of mental health disorders in India?",
+    "rubric": [
+      "Mentions that india faces a large mental health burden with an estimated 197 million people affected",
+      "Mentions that the treatment gap exceeds 80% due to stigma",
+      "Mentions that shortage of psychiatrists",
+      "Mentions that inadequate infrastructure"
+    ]
+  },
+  {
+    "Scenario Id": 80,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Mental Health Programme in India?",
+    "rubric": [
+      "Mentions that nMHP (launched 1982) aims to provide mental health services at the community level",
+      "Mentions that integrating mental health into general healthcare through District Mental Health Programme and training of primary care doctors",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 81,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of NFHS-5 data for Indian healthcare?",
+    "rubric": [
+      "Mentions that nFHS-5 (2019-21) provides key indicators on fertility",
+      "Mentions that child and maternal health",
+      "Mentions that family planning",
+      "Mentions that it is the basis for policy planning and monitoring health outcomes across states"
+    ]
+  },
+  {
+    "Scenario Id": 82,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the PM Ayushman Bharat Health Infrastructure Mission?",
+    "rubric": [
+      "Mentions that pM-ABHIM (2021) aims to strengthen health infrastructure from primary to critical care levels",
+      "Mentions that creating Health and Wellness Centres",
+      "Mentions that critical care hospital blocks",
+      "Mentions that and public health laboratories across India"
+    ]
+  },
+  {
+    "Scenario Id": 83,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of anaemia in Indian women?",
+    "rubric": [
+      "Mentions that nFHS-5 shows 57% of women aged 15–49 are anaemic in India",
+      "Mentions that the POSHAN Abhiyaan and Anaemia Mukt Bharat programme target reduction through supplementation",
+      "Mentions that dietary diversification",
+      "Mentions that and deworming"
+    ]
+  },
+  {
+    "Scenario Id": 84,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the India Newborn Action Plan?",
+    "rubric": [
+      "Mentions that iNAP (2014) targets reduction of neonatal mortality rate to 10 and stillbirth rate to 10 per 1,000 live births by 2030",
+      "Mentions that through interventions like KMC",
+      "Mentions that breastfeeding promotion",
+      "Mentions that and infection prevention"
+    ]
+  },
+  {
+    "Scenario Id": 85,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the traditional medicine policy in India?",
+    "rubric": [
+      "Mentions that india promotes AYUSH (Ayurveda",
+      "Mentions that homeopathy) through a dedicated Ministry of AYUSH",
+      "Mentions that national AYUSH Mission",
+      "Mentions that and integration of traditional medicine into the mainstream health system"
+    ]
+  },
+  {
+    "Scenario Id": 86,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of telemedicine in India post-COVID?",
+    "rubric": [
+      "Mentions that the Telemedicine Practice Guidelines (2020) legitimised teleconsultation by registered practitioners",
+      "Mentions that india's telemedicine platform",
+      "Mentions that has enabled crores of remote consultations",
+      "Mentions that improving rural healthcare access"
+    ]
+  },
+  {
+    "Scenario Id": 87,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of tobacco use in India?",
+    "rubric": [
+      "Mentions that india has over 267 million tobacco users",
+      "Mentions that tobacco causes nearly 1.35 million deaths annually",
+      "Mentions that cOTPA (2003) regulates tobacco",
+      "Mentions that and India has implemented graphic health warnings and designated smoke-free zones"
+    ]
+  },
+  {
+    "Scenario Id": 88,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Universal Immunisation Programme in India?",
+    "rubric": [
+      "Mentions that uIP provides free vaccines against 12 vaccine-preventable diseases to all children and pregnant women",
+      "Mentions that mission Indradhanush intensified efforts to achieve 90% full immunisation coverage",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 89,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of Health and Wellness Centres?",
+    "rubric": [
+      "Mentions that hWCs are upgraded sub-health centres and primary health centres under Ayushman Bharat providing comprehensive primary health care including NCD screening",
+      "Mentions that mental health",
+      "Mentions that palliative care",
+      "Mentions that and telemedicine"
+    ]
+  },
+  {
+    "Scenario Id": 90,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Nutrition Mission (POSHAN Abhiyaan)?",
+    "rubric": [
+      "Mentions that pOSHAN Abhiyaan (2018) aims to reduce stunting",
+      "Mentions that undernutrition",
+      "Mentions that and low birth weight by 2%",
+      "Mentions that and 2% annually"
+    ]
+  },
+  {
+    "Scenario Id": 91,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of snake bite deaths in India?",
+    "rubric": [
+      "Mentions that india accounts for about 50,000 of the world's approximately 81,000–138,000 annual snakebite deaths",
+      "Mentions that rural populations",
+      "Mentions that agricultural workers",
+      "Mentions that and those in states like Uttar Pradesh and West Bengal are most affected"
+    ]
+  },
+  {
+    "Scenario Id": 92,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Pradhan Mantri National Dialysis Programme?",
+    "rubric": [
+      "Mentions that pMNDP provides free dialysis services to poor patients with kidney failure at district hospitals under PPP mode",
+      "Mentions that addressing the high burden of chronic kidney disease and reducing out-of-pocket expenditure",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 93,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Programme for Prevention and Control of Cancer, Diabetes, CVD and Stroke?",
+    "rubric": [
+      "Mentions that nPCDCS focuses on prevention",
+      "Mentions that early diagnosis",
+      "Mentions that and management of NCDs at district and sub-district levels through lifestyle modification",
+      "Mentions that and integration with primary health care delivery"
+    ]
+  },
+  {
+    "Scenario Id": 94,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the role of Jan Aushadhi Kendras?",
+    "rubric": [
+      "Mentions that pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP) provides quality generic medicines at affordable prices through Jan Aushadhi Kendras",
+      "Mentions that reducing out-of-pocket spending on medicines for common people",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 95,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of the Drugs and Cosmetics Act, 1940?",
+    "rubric": [
+      "Mentions that it regulates import",
+      "Mentions that and sale of drugs and cosmetics in India",
+      "Mentions that it establishes standards for drug quality and empowers CDSCO and state drug controllers to enforce these standards",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 96,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the national policy on blood safety in India?",
+    "rubric": [
+      "Mentions that the National Blood Policy promotes voluntary non-remunerated blood donation",
+      "Mentions that consolidation of blood banks",
+      "Mentions that component separation",
+      "Mentions that and quality standards to ensure safe blood supply across India"
+    ]
+  },
+  {
+    "Scenario Id": 97,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Indian health expenditure pattern?",
+    "rubric": [
+      "Mentions that india spends about 2.1% of GDP on health",
+      "Mentions that out-of-pocket expenditure remains very high at about 48%",
+      "Mentions that pushing millions into poverty annually",
+      "Mentions that government spending has been gradually increasing but remains below WHO recommendations"
+    ]
+  },
+  {
+    "Scenario Id": 98,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Programme for Control of Blindness?",
+    "rubric": [
+      "Mentions that nPCB aims to reduce the prevalence of blindness from 1% to 0.3%",
+      "Mentions that it focuses on free cataract surgeries",
+      "Mentions that spectacle distribution",
+      "Mentions that and eye health through vision centres and eye care at district hospitals"
+    ]
+  },
+  {
+    "Scenario Id": 99,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of dengue and chikungunya in India?",
+    "rubric": [
+      "Mentions that india reports lakhs of dengue cases annually with peak transmission during monsoon",
+      "Mentions that urban proliferation of Aedes mosquito breeding sites is a key challenge",
+      "Mentions that vector control",
+      "Mentions that and awareness are key interventions"
+    ]
+  },
+  {
+    "Scenario Id": 100,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Reproductive and Child Health Programme?",
+    "rubric": [
+      "Mentions that rCH provides integrated services for maternal health",
+      "Mentions that family planning",
+      "Mentions that and reproductive health through the health system",
+      "Mentions that with special focus on reducing maternal"
+    ]
+  },
+  {
+    "Scenario Id": 101,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of the Mental Healthcare Act, 2017?",
+    "rubric": [
+      "Mentions that the MHA 2017 replaced the 1987 Act and guarantees the right to mental healthcare",
+      "Mentions that decriminalises suicide attempt",
+      "Mentions that mandates insurance for mental illness",
+      "Mentions that prohibits ECT without consent"
+    ]
+  },
+  {
+    "Scenario Id": 102,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of Japanese Encephalitis in India?",
+    "rubric": [
+      "Mentions that jE is endemic in over 171 districts in 15 states",
+      "Mentions that mainly affecting children in rural areas",
+      "Mentions that jE vaccination is part of UIP in high-burden states",
+      "Mentions that and Acute Encephalitis Syndrome surveillance is conducted nationwide"
+    ]
+  },
+  {
+    "Scenario Id": 103,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is India's strategy for elimination of lymphatic filariasis?",
+    "rubric": [
+      "Mentions that india aims to eliminate LF through Mass Drug Administration (MDA) of DEC+Albendazole annually in endemic districts",
+      "Mentions that alongside morbidity management and disability prevention for those already affected",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 104,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Organ and Tissue Transplant Organisation?",
+    "rubric": [
+      "Mentions that nOTTO coordinates organ and tissue donation and transplantation activities in India",
+      "Mentions that maintaining a national registry",
+      "Mentions that allocating donated organs through a defined protocol",
+      "Mentions that and promoting deceased donor transplantation"
+    ]
+  },
+  {
+    "Scenario Id": 105,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of Pradhan Mantri Swasthya Suraksha Yojana?",
+    "rubric": [
+      "Mentions that pMSSY aims to correct regional imbalances in tertiary healthcare by setting up new AIIMS and upgrading existing government medical colleges in underserved states",
+      "Mentions that improving specialist care access",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 106,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of occupational health issues in India?",
+    "rubric": [
+      "Mentions that india has 500+ million workers exposed to occupational hazards including dust (silicosis",
+      "Mentions that and ergonomic risks",
+      "Mentions that the Occupational Safety",
+      "Mentions that health and Working Conditions Code (2020) consolidates labour laws"
+    ]
+  },
+  {
+    "Scenario Id": 107,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the role of Integrated Disease Surveillance Programme?",
+    "rubric": [
+      "Mentions that iDSP is a decentralised state-based surveillance programme for early detection and response to disease outbreaks through district",
+      "Mentions that and national surveillance units",
+      "Mentions that reporting weekly S",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 108,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the PM Poshan Shakti Nirman scheme?",
+    "rubric": [
+      "Mentions that pM Poshan (renamed from Mid-Day Meal Scheme) provides free cooked meals to children in government and government-aided schools",
+      "Mentions that improving nutrition",
+      "Mentions that school attendance",
+      "Mentions that and reducing dropout rates"
+    ]
+  },
+  {
+    "Scenario Id": 109,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Vector Borne Disease Control Programme?",
+    "rubric": [
+      "Mentions that nVBDCP controls malaria",
+      "Mentions that lymphatic filariasis",
+      "Mentions that and Japanese encephalitis through vector control",
+      "Mentions that case management"
+    ]
+  },
+  {
+    "Scenario Id": 110,
+    "Domain": "Indian Healthcare",
+    "Questions": "What are Health and Family Welfare Centres in India?",
+    "rubric": [
+      "Mentions that sub-Health Centres are the most peripheral public health facility",
+      "Mentions that staffed by Auxiliary Nurse Midwives",
+      "Mentions that providing basic maternal and child health",
+      "Mentions that family planning"
+    ]
+  },
+  {
+    "Scenario Id": 111,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is India's approach to rare diseases?",
+    "rubric": [
+      "Mentions that the National Policy for Rare Diseases (2021) provides financial assistance up to ₹50 lakh for treatment of rare diseases from the Rashtriya Arogya Nidhi fund",
+      "Mentions that and promotes research and indigenous drug manufacturing",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 112,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of COVID-19 vaccination in India?",
+    "rubric": [
+      "Mentions that india's COVID-19 vaccination drive",
+      "Mentions that launched in January 2021",
+      "Mentions that became the world's largest",
+      "Mentions that vaccines Covishield"
+    ]
+  },
+  {
+    "Scenario Id": 113,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the role of the Indian Council of Medical Research?",
+    "rubric": [
+      "Mentions that iCMR is the apex body in India for formulation",
+      "Mentions that and promotion of biomedical research",
+      "Mentions that it sets standards for clinical trials",
+      "Mentions that conducts disease surveillance"
+    ]
+  },
+  {
+    "Scenario Id": 114,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Cancer Grid in India?",
+    "rubric": [
+      "Mentions that nCG is a network of major cancer centres",
+      "Mentions that research institutes",
+      "Mentions that and charitable hospitals to provide uniform standards of cancer care",
+      "Mentions that facilitate multidisciplinary care"
+    ]
+  },
+  {
+    "Scenario Id": 115,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Pradhan Mantri TB Mukt Bharat Abhiyan?",
+    "rubric": [
+      "Mentions that launched in 2022",
+      "Mentions that the programme enlists Ni-kshay Mitras (supporters) who adopt TB patients to provide nutritional",
+      "Mentions that additional diagnostic",
+      "Mentions that and vocational support"
+    ]
+  },
+  {
+    "Scenario Id": 116,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of the Drugs (Prices Control) Order and NPPA?",
+    "rubric": [
+      "Mentions that dPCO empowers NPPA to fix ceiling prices for scheduled formulations",
+      "Mentions that nPPA also monitors prices of non-scheduled drugs and takes action against unreasonable price hikes",
+      "Mentions that protecting patients from exploitation",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 117,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the National Programme for Healthcare of Elderly?",
+    "rubric": [
+      "Mentions that nPHCE provides dedicated healthcare for senior citizens through weekly OPD services at PHCs",
+      "Mentions that separate wards in district hospitals",
+      "Mentions that geriatric centres in medical colleges",
+      "Mentions that and National Institute of Ageing"
+    ]
+  },
+  {
+    "Scenario Id": 118,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the burden of reproductive health issues among adolescents in India?",
+    "rubric": [
+      "Mentions that india has a high adolescent birth rate;",
+      "Mentions that 7% of women aged 15–19 are already mothers (NFHS-5)",
+      "Mentions that rKSK (Rashtriya Kishor Swasthya Karyakram) addresses adolescent health including nutrition",
+      "Mentions that mental health"
+    ]
+  },
+  {
+    "Scenario Id": 119,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the significance of frontline health workers in controlling COVID-19 in India?",
+    "rubric": [
+      "Mentions that and Anganwadi workers were pivotal in COVID-19 surveillance",
+      "Mentions that contact tracing",
+      "Mentions that vaccination mobilisation",
+      "Mentions that and community awareness"
+    ]
+  },
+  {
+    "Scenario Id": 120,
+    "Domain": "Indian Healthcare",
+    "Questions": "What is the Pradhan Mantri Surakshit Matritva Abhiyan?",
+    "rubric": [
+      "Mentions that pMSMA guarantees a fixed day (9th of every month) free antenatal check-up to all pregnant women at PHCs and government hospitals by obstetricians and physicians",
+      "Mentions that ensuring quality ANC for high-risk pregnancies",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 121,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is Minimum Support Price (MSP) in India?",
+    "rubric": [
+      "Mentions that mSP is the price at which the government purchases crops from farmers to protect them from price falls",
+      "Mentions that the Cabinet Committee on Economic Affairs announces MSP based on CACP recommendations before each crop season",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 122,
+    "Domain": "Agriculture and MSP",
+    "Questions": "How is MSP calculated in India?",
+    "rubric": [
+      "Mentions that mSP is calculated based on A2+FL cost (actual paid-out cost + imputed value of family labour)",
+      "Mentions that a2+FL+C2 method includes rental value of owned land",
+      "Mentions that the Swaminathan Commission recommended MSP at 50% above C2 cost",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 123,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the role of the Commission for Agricultural Costs and Prices?",
+    "rubric": [
+      "Mentions that cACP is a statutory body that recommends MSPs for 23 crops",
+      "Mentions that studies price trends",
+      "Mentions that and advises the government on agricultural price policy",
+      "Mentions that its recommendations are advisory;"
+    ]
+  },
+  {
+    "Scenario Id": 124,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the PM Kisan Samman Nidhi scheme?",
+    "rubric": [
+      "Mentions that pM-KISAN provides ₹6,000 per year in three equal instalments directly to the bank accounts of small and marginal farmer families",
+      "Mentions that providing income support to about 11 crore farmers",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 125,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Green Revolution and its impact on India?",
+    "rubric": [
+      "Mentions that the Green Revolution (1960s–70s) introduced HYV seeds",
+      "Mentions that chemical fertilisers",
+      "Mentions that and mechanisation",
+      "Mentions that transforming India from food scarcity to surplus"
+    ]
+  },
+  {
+    "Scenario Id": 126,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Pradhan Mantri Fasal Bima Yojana?",
+    "rubric": [
+      "Mentions that pMFBY provides comprehensive crop insurance at subsidised premiums (2% for Kharif",
+      "Mentions that 1.5% for Rabi",
+      "Mentions that 5% for commercial crops) against crop losses due to natural calamities",
+      "Mentions that and diseases"
+    ]
+  },
+  {
+    "Scenario Id": 127,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What are the main Kharif crops in India?",
+    "rubric": [
+      "Mentions that kharif crops are sown in the monsoon season (June–July) and harvested in autumn",
+      "Mentions that major Kharif crops include rice",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 128,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What are the main Rabi crops in India?",
+    "rubric": [
+      "Mentions that rabi crops are sown in winter (October–November) and harvested in spring (March–April)",
+      "Mentions that major Rabi crops include wheat",
+      "Mentions that lentils (masoor)",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 129,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Food Corporation of India?",
+    "rubric": [
+      "Mentions that fCI is a statutory body that procures",
+      "Mentions that and distributes foodgrains under the MSP scheme",
+      "Mentions that maintains buffer stocks",
+      "Mentions that and supplies grains to states for the Public Distribution System under the National Food Security Act"
+    ]
+  },
+  {
+    "Scenario Id": 130,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the National Food Security Act, 2013?",
+    "rubric": [
+      "Mentions that nFSA legally entitles 67% of India's population to subsidised foodgrains — 5 kg per person per month at ₹1–3 per kg for AAY and priority households — through the targeted Public Distribution System",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 131,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Pradhan Mantri Krishi Sinchayee Yojana?",
+    "rubric": [
+      "Mentions that pMKSY aims to ensure water to every farm (Har Khet Ko Pani) and improve water use efficiency (More Crop Per Drop) through convergence of irrigation investments and micro-irrigation promotion",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 132,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of cooperative farming in India?",
+    "rubric": [
+      "Mentions that cooperative farming",
+      "Mentions that dairy cooperatives (AMUL model)",
+      "Mentions that and fishery cooperatives",
+      "Mentions that enables collective bargaining"
+    ]
+  },
+  {
+    "Scenario Id": 133,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the e-NAM platform?",
+    "rubric": [
+      "Mentions that national Agriculture Market is an online trading portal connecting APMC mandis across India",
+      "Mentions that enabling farmers to sell produce to buyers nationally at transparent prices",
+      "Mentions that reducing intermediaries and improving farmer income",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 134,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of Operation Flood in India?",
+    "rubric": [
+      "Mentions that operation Flood (1970–1996) by Dr",
+      "Mentions that verghese Kurien transformed India into the world's largest milk producer through cooperative dairy development",
+      "Mentions that the AMUL model",
+      "Mentions that and linking rural producers to urban markets"
+    ]
+  },
+  {
+    "Scenario Id": 135,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is soil health card and its purpose?",
+    "rubric": [
+      "Mentions that soil Health Cards provide farmers with information on 12 soil nutrient parameters and fertiliser recommendations for their specific soil",
+      "Mentions that promoting balanced fertiliser use and reducing input costs",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 136,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Agricultural Produce Market Committee (APMC)?",
+    "rubric": [
+      "Mentions that aPMCs are state-regulated bodies that govern wholesale agricultural markets (mandis)",
+      "Mentions that ensuring fair prices through auctions",
+      "Mentions that preventing exploitation of farmers",
+      "Mentions that and collecting market fees"
+    ]
+  },
+  {
+    "Scenario Id": 137,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What are the three farm laws that were repealed in 2021?",
+    "rubric": [
+      "Mentions that the Farmers' Produce Trade and Commerce Act",
+      "Mentions that farmers' Agreement on Price Assurance and Farm Services Act",
+      "Mentions that and Essential Commodities Amendment Act were enacted in 2020 and repealed in 2021 following farmer protests",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 138,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of Zaid crops in India?",
+    "rubric": [
+      "Mentions that zaid crops are short-duration crops grown between Rabi and Kharif seasons (March–June) using residual soil moisture or irrigation",
+      "Mentions that examples include watermelon",
+      "Mentions that and some vegetables",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 139,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the PM Kisan MaanDhan Yojana?",
+    "rubric": [
+      "Mentions that pMKMY is a pension scheme for small and marginal farmers aged 18–40",
+      "Mentions that providing ₹3,000 per month on attaining 60 years",
+      "Mentions that both farmers and the government contribute equally (₹55–₹200/month) to the pension fund",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 140,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Paramparagat Krishi Vikas Yojana?",
+    "rubric": [
+      "Mentions that pKVY promotes organic farming in cluster mode",
+      "Mentions that providing ₹50,000 per hectare over 3 years for organic certification",
+      "Mentions that market linkage",
+      "Mentions that and conversion"
+    ]
+  },
+  {
+    "Scenario Id": 141,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the Swaminathan Commission report?",
+    "rubric": [
+      "Mentions that the National Commission on Farmers (2004–06) chaired by MS Swaminathan recommended MSP at C2+50%",
+      "Mentions that credit access",
+      "Mentions that and farm diversification to ensure farmer welfare",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 142,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is micro-irrigation and why is it promoted in India?",
+    "rubric": [
+      "Mentions that micro-irrigation (drip and sprinkler systems) delivers water directly to plant roots",
+      "Mentions that saving 30–50% water compared to flood irrigation",
+      "Mentions that pMKSY's 'More Crop Per Drop' initiative subsidises micro-irrigation adoption",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 143,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of cotton farming in India?",
+    "rubric": [
+      "Mentions that india is the world's largest cotton producer",
+      "Mentions that cotton (White Gold) supports livelihoods of 6 million farmers and over 40–50 million people in allied sectors",
+      "Mentions that mSP is announced for Bt cotton varieties",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 144,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Pradhan Mantri Annadata Aay Sanrakshan Abhiyan?",
+    "rubric": [
+      "Mentions that pM-AASHA comprises Price Support Scheme",
+      "Mentions that price Deficiency Payment Scheme",
+      "Mentions that and Pilot of Private Procurement and Stockist Scheme to ensure farmers receive remunerative prices for their produce",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 145,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of rice procurement in India?",
+    "rubric": [
+      "Mentions that india procures millions of tonnes of paddy annually at MSP",
+      "Mentions that mainly from Punjab",
+      "Mentions that and Andhra Pradesh",
+      "Mentions that for PDS distribution and buffer stocks"
+    ]
+  },
+  {
+    "Scenario Id": 146,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the role of NABARD in Indian agriculture?",
+    "rubric": [
+      "Mentions that nABARD (National Bank for Agriculture and Rural Development) provides refinance to rural financial institutions",
+      "Mentions that supports rural infrastructure through RIDF",
+      "Mentions that promotes FPOs",
+      "Mentions that and finances watershed development and microfinance"
+    ]
+  },
+  {
+    "Scenario Id": 147,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the Blue Revolution in India?",
+    "rubric": [
+      "Mentions that blue Revolution focuses on fish production and fisheries management",
+      "Mentions that india is the second largest aquaculture producer globally",
+      "Mentions that pM Matsya Sampada Yojana (2020) aims to boost fish production to 220 lakh tonnes by 2024–25",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 148,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is crop diversification and why is it needed in Punjab?",
+    "rubric": [
+      "Mentions that crop diversification moves farmers from paddy-wheat monoculture to other crops",
+      "Mentions that the paddy-wheat cycle has depleted groundwater and soil health",
+      "Mentions that incentives and MSP for alternative crops promote diversification",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 149,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the Agriculture Infrastructure Fund?",
+    "rubric": [
+      "Mentions that aIF (2020) provides medium-long term debt financing for post-harvest management and community farm assets like warehouses",
+      "Mentions that primary processing units",
+      "Mentions that to reduce post-harvest losses and improve farmer income",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 150,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Farmer Producer Organisation (FPO) scheme?",
+    "rubric": [
+      "Mentions that fPOs aggregate small farmers into collectives for better bargaining power",
+      "Mentions that shared input procurement",
+      "Mentions that and marketing",
+      "Mentions that the government is establishing 10,000 FPOs with financial support and market linkages"
+    ]
+  },
+  {
+    "Scenario Id": 151,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of sugarcane farming in India?",
+    "rubric": [
+      "Mentions that india is the world's largest consumer and second largest producer of sugar",
+      "Mentions that sugarcane farming involves 50 million farmers",
+      "Mentions that the government announces Fair and Remunerative Price (FRP) for sugarcane",
+      "Mentions that separate from MSP"
+    ]
+  },
+  {
+    "Scenario Id": 152,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the White Revolution in India?",
+    "rubric": [
+      "Mentions that white Revolution (Operation Flood) transformed India into the world's largest milk producer",
+      "Mentions that india produces over 230 million tonnes of milk annually",
+      "Mentions that dairy cooperatives support the livelihoods of 150+ million rural households",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 153,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Pradhan Mantri Gram Sinchai Yojana?",
+    "rubric": [
+      "Mentions that pMGSY provides rural road connectivity but in agriculture context",
+      "Mentions that pMKSY provides Har Khet Ko Pani",
+      "Mentions that accelerated Irrigation Benefits Programme (AIBP) completes long-pending irrigation projects for new farmland",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 154,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of pulses production in India?",
+    "rubric": [
+      "Mentions that india is the world's largest producer and consumer of pulses",
+      "Mentions that pulses fix atmospheric nitrogen",
+      "Mentions that improving soil health",
+      "Mentions that national Food Security Mission-Pulses and MSP support aim to reduce import dependence"
+    ]
+  },
+  {
+    "Scenario Id": 155,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Yellow Revolution in India?",
+    "rubric": [
+      "Mentions that yellow Revolution refers to the increase in oilseeds production in India during 1986–1990 through Technology Mission on Oilseeds",
+      "Mentions that india still imports significant amounts of edible oils",
+      "Mentions that and Mission for Integrated Development of Horticulture supports oilseed crops",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 156,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of dryland farming in India?",
+    "rubric": [
+      "Mentions that about 60% of India's cultivated area is rainfed",
+      "Mentions that dryland farming uses techniques like contour farming",
+      "Mentions that and drought-resistant varieties",
+      "Mentions that nICRA (National Initiative on Climate Resilient Agriculture) supports dryland farmers"
+    ]
+  },
+  {
+    "Scenario Id": 157,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the crop insurance mechanism under PMFBY?",
+    "rubric": [
+      "Mentions that farmers pay low premiums;",
+      "Mentions that the remaining premium is shared between state and central governments",
+      "Mentions that claims are settled based on Crop Cutting Experiments and satellite/drone-based remote sensing for yield estimation",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 158,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of horticulture in India?",
+    "rubric": [
+      "Mentions that india is the second largest producer of fruits and vegetables globally",
+      "Mentions that horticulture contributes about 33% of agricultural GDP",
+      "Mentions that mission for Integrated Development of Horticulture (MIDH) promotes area expansion and post-harvest management",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 159,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Kisan Credit Card scheme?",
+    "rubric": [
+      "Mentions that kCC provides farmers timely credit for crop cultivation",
+      "Mentions that post-harvest expenses",
+      "Mentions that allied activities",
+      "Mentions that and personal needs at subsidised interest rates (7% with 3% subvention for timely repayment)"
+    ]
+  },
+  {
+    "Scenario Id": 160,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the National Bee Keeping and Honey Mission?",
+    "rubric": [
+      "Mentions that nBHM promotes beekeeping for honey production and pollination services",
+      "Mentions that improving crop productivity",
+      "Mentions that india is among the top honey producers globally and 'Sweet Revolution' aims to increase bee colonies and farmer income",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 161,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of Zero Budget Natural Farming?",
+    "rubric": [
+      "Mentions that promoted by Subhash Palekar and adopted in states like Andhra Pradesh",
+      "Mentions that uses locally available inputs (jeevamrutam",
+      "Mentions that eliminates purchased inputs",
+      "Mentions that and claims to reduce farming costs while maintaining yields"
+    ]
+  },
+  {
+    "Scenario Id": 162,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is Paramparagat Krishi Vikas Yojana and how does it differ from organic farming?",
+    "rubric": [
+      "Mentions that pKVY is an organic farming promotion scheme under NMSA",
+      "Mentions that while organic farming broadly refers to farming without synthetic inputs",
+      "Mentions that pKVY specifically provides cluster-based certification support under PGS-India",
+      "Mentions that focusing on chemical-free farming"
+    ]
+  },
+  {
+    "Scenario Id": 163,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the 2016 land leasing model law?",
+    "rubric": [
+      "Mentions that the Model Agricultural Land Leasing Act (2016) was recommended by NITI Aayog to legalise tenant farming",
+      "Mentions that protect tenant rights",
+      "Mentions that and enable access to institutional credit for tenant farmers without land ownership",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 164,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What are the key challenges in agricultural marketing in India?",
+    "rubric": [
+      "Mentions that key challenges include fragmented landholdings",
+      "Mentions that poor market infrastructure",
+      "Mentions that inadequate cold chain",
+      "Mentions that multiple intermediaries"
+    ]
+  },
+  {
+    "Scenario Id": 165,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the One District One Product scheme for agriculture?",
+    "rubric": [
+      "Mentions that oDOP promotes production and branding of specific agricultural/horticultural products unique to a district",
+      "Mentions that helping farmers get better prices through value addition",
+      "Mentions that and national/export market linkages",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 166,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the PM Matsya Sampada Yojana?",
+    "rubric": [
+      "Mentions that pMMSY (2020) aims to enhance fish production",
+      "Mentions that modernise fishing infrastructure",
+      "Mentions that ensure traceability",
+      "Mentions that create jobs in fisheries sector"
+    ]
+  },
+  {
+    "Scenario Id": 167,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the national agricultural policy framework in India?",
+    "rubric": [
+      "Mentions that india's agricultural policy framework rests on food security (PDS",
+      "Mentions that price support (MSP",
+      "Mentions that crop insurance (PMFBY)",
+      "Mentions that credit access (KCC"
+    ]
+  },
+  {
+    "Scenario Id": 168,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of genetic engineering in Indian agriculture?",
+    "rubric": [
+      "Mentions that bt cotton is the only approved GM crop in India",
+      "Mentions that regulatory debates around GM mustard (HT-DBT Mustard) continue",
+      "Mentions that gM crops promise higher yields and pest resistance but face ecological and food safety concerns",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 169,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of direct benefit transfer in agriculture?",
+    "rubric": [
+      "Mentions that dBT in agriculture delivers subsidies (fertiliser",
+      "Mentions that pM-KISAN) directly to farmers' bank accounts",
+      "Mentions that reducing leakages",
+      "Mentions that ensuring target beneficiaries receive benefits"
+    ]
+  },
+  {
+    "Scenario Id": 170,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the National Horticulture Board?",
+    "rubric": [
+      "Mentions that nHB promotes holistic growth of the horticulture sector through development and modernisation of the horticulture industry",
+      "Mentions that provides financial assistance for commercial horticulture projects and post-harvest infrastructure",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 171,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the Punjab Farmers' protest (2020-21) for agricultural policy?",
+    "rubric": [
+      "Mentions that the 2020-21 protests against the three farm laws highlighted farmer concerns about removal of MSP guarantees",
+      "Mentions that privatisation of mandis",
+      "Mentions that and lack of contract farming safeguards",
+      "Mentions that leading to the repeal of the laws in 2021"
+    ]
+  },
+  {
+    "Scenario Id": 172,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of NABARD's Rural Infrastructure Development Fund?",
+    "rubric": [
+      "Mentions that rIDF provides low-interest loans to state governments for completing ongoing rural infrastructure projects in agriculture",
+      "Mentions that rural connectivity",
+      "Mentions that and social sector",
+      "Mentions that bridging public investment gaps"
+    ]
+  },
+  {
+    "Scenario Id": 173,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Agri-UDAAN programme?",
+    "rubric": [
+      "Mentions that agri-UDAAN is a mentorship programme for agri-startups connecting them with investors",
+      "Mentions that and market networks",
+      "Mentions that the government's Startup India initiative supports agri-tech innovations addressing farm-to-fork challenges",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 174,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of the Doubling Farmers' Income initiative?",
+    "rubric": [
+      "Mentions that the DFI initiative (2022 target) aimed to double farmers' real income by enhancing productivity",
+      "Mentions that reducing costs",
+      "Mentions that increasing cropping intensity",
+      "Mentions that diversifying to non-farm income"
+    ]
+  },
+  {
+    "Scenario Id": 175,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Integrated Pest Management approach in India?",
+    "rubric": [
+      "Mentions that iPM uses biological control",
+      "Mentions that cultural practices",
+      "Mentions that resistant varieties",
+      "Mentions that and minimal judicious pesticide use to control pests economically and ecologically"
+    ]
+  },
+  {
+    "Scenario Id": 176,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of groundwater depletion for Indian agriculture?",
+    "rubric": [
+      "Mentions that over 60% of irrigation and 85% of drinking water in India comes from groundwater",
+      "Mentions that paddy-wheat monoculture in Punjab has caused critical depletion",
+      "Mentions that atal Bhujal Yojana promotes community-based groundwater management",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 177,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the PM Kusum Yojana?",
+    "rubric": [
+      "Mentions that pM-KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) promotes solar pump installation for irrigation and solar power plants on barren land",
+      "Mentions that providing farmers with additional income from power sale and reducing diesel costs",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 178,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the significance of cold chain infrastructure for Indian agriculture?",
+    "rubric": [
+      "Mentions that only 10-15% of Indian produce passes through cold chains",
+      "Mentions that leading to 15-40% post-harvest losses",
+      "Mentions that integrated cold chain projects under MIDH and NHB provide subsidised cold storage",
+      "Mentions that reefer vehicles"
+    ]
+  },
+  {
+    "Scenario Id": 179,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the Food Processing Industry and its link to agriculture?",
+    "rubric": [
+      "Mentions that the food processing sector links farm production to consumer markets",
+      "Mentions that reducing wastage",
+      "Mentions that enhancing farmer income through value addition",
+      "Mentions that pM Kisan SAMPADA Yojana and PLI for food processing support the sector"
+    ]
+  },
+  {
+    "Scenario Id": 180,
+    "Domain": "Agriculture and MSP",
+    "Questions": "What is the National Mission for Sustainable Agriculture?",
+    "rubric": [
+      "Mentions that nMSA promotes sustainable farming through soil health management",
+      "Mentions that water use efficiency",
+      "Mentions that integrated farming systems",
+      "Mentions that and climate change adaptation"
+    ]
+  },
+  {
+    "Scenario Id": 181,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Battle of Plassey (1757)?",
+    "rubric": [
+      "Mentions that the Battle of Plassey between the British East India Company and Siraj ud-Daulah of Bengal established British supremacy in Bengal",
+      "Mentions that marking the beginning of British colonial rule in India",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 182,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Revolt of 1857?",
+    "rubric": [
+      "Mentions that the 1857 uprising (also called India's First War of Independence) was a widespread revolt by Indian soldiers and civilians against British rule",
+      "Mentions that its failure led to the end of East India Company rule and direct Crown administration",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 183,
+    "Domain": "Indian History",
+    "Questions": "Who was Raja Ram Mohan Roy and what was his contribution?",
+    "rubric": [
+      "Mentions that raja Ram Mohan Roy (1772–1833) was a social reformer who founded the Brahmo Samaj",
+      "Mentions that campaigned against sati",
+      "Mentions that child marriage",
+      "Mentions that and caste discrimination"
+    ]
+  },
+  {
+    "Scenario Id": 184,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Indian National Congress founding in 1885?",
+    "rubric": [
+      "Mentions that the INC was founded in Bombay in 1885 by A.O",
+      "Mentions that dadabhai Naoroji",
+      "Mentions that and others as a platform for educated Indians to express political aspirations",
+      "Mentions that it evolved from a moderate petitioning body to leading the independence movement"
+    ]
+  },
+  {
+    "Scenario Id": 185,
+    "Domain": "Indian History",
+    "Questions": "What was the Non-Cooperation Movement?",
+    "rubric": [
+      "Mentions that launched by Gandhi in 1920 following the Jallianwala Bagh massacre and Khilafat issue",
+      "Mentions that the NCM asked Indians to boycott British goods",
+      "Mentions that and services",
+      "Mentions that it was called off after the Chauri Chaura violence in 1922"
+    ]
+  },
+  {
+    "Scenario Id": 186,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Dandi March (1930)?",
+    "rubric": [
+      "Mentions that gandhi's 241-mile march to Dandi to make salt in defiance of the British Salt Tax launched the Civil Disobedience Movement",
+      "Mentions that galvanising mass participation in the freedom struggle and drawing international attention",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 187,
+    "Domain": "Indian History",
+    "Questions": "What was the Quit India Movement?",
+    "rubric": [
+      "Mentions that launched by Gandhi in August 1942 with the call 'Do or Die'",
+      "Mentions that the Quit India Movement demanded immediate end of British rule",
+      "Mentions that the British arrested all major Congress leaders;",
+      "Mentions that the leaderless movement turned violent"
+    ]
+  },
+  {
+    "Scenario Id": 188,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Partition in 1947?",
+    "rubric": [
+      "Mentions that the Partition of British India into India and Pakistan on religious lines (1947) led to one of history's largest migrations (14 million displaced) and enormous communal violence with hundreds of thousands killed",
+      "Includes key factual details",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 189,
+    "Domain": "Indian History",
+    "Questions": "Who was Bhimrao Ambedkar and what was his contribution to India?",
+    "rubric": [
+      "Mentions that ambedkar was the architect of the Indian Constitution",
+      "Mentions that a Dalit leader who fought caste discrimination",
+      "Mentions that founded political parties",
+      "Mentions that converted to Buddhism in 1956"
+    ]
+  },
+  {
+    "Scenario Id": 190,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Jallianwala Bagh massacre?",
+    "rubric": [
+      "Mentions that on 13 April 1919",
+      "Mentions that general Dyer ordered troops to fire on a peaceful gathering in Amritsar",
+      "Mentions that killing hundreds",
+      "Mentions that the massacre radicalised Indian opinion against British rule and is a turning point in the independence movement"
+    ]
+  },
+  {
+    "Scenario Id": 191,
+    "Domain": "Indian History",
+    "Questions": "What was the Khilafat Movement?",
+    "rubric": [
+      "Mentions that the Khilafat Movement (1919–24) was led by Indian Muslims to preserve the Ottoman Caliphate after WWI",
+      "Mentions that gandhi supported it to build Hindu-Muslim unity",
+      "Mentions that linking it with the Non-Cooperation Movement",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 192,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Cabinet Mission Plan (1946)?",
+    "rubric": [
+      "Mentions that the Cabinet Mission Plan proposed a three-tier federal structure for united India",
+      "Mentions that but disagreements between Congress and Muslim League on power-sharing made it unworkable",
+      "Mentions that leading to Partition",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 193,
+    "Domain": "Indian History",
+    "Questions": "Who were the key figures of the Bhakti Movement?",
+    "rubric": [
+      "Mentions that bhakti Movement saints including Kabir",
+      "Mentions that and Namdev preached devotion to one God transcending caste barriers",
+      "Mentions that influencing social reform and vernacular literature across India",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 194,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Chandragupta Maurya and the Maurya Empire?",
+    "rubric": [
+      "Mentions that chandragupta Maurya (321–297 BCE) founded the Maurya Empire",
+      "Mentions that the first pan-Indian empire",
+      "Mentions that with Kautilya's Arthashastra as its administrative guide",
+      "Mentions that it reached its zenith and spread Buddhism"
+    ]
+  },
+  {
+    "Scenario Id": 195,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Ashoka's dhamma?",
+    "rubric": [
+      "Mentions that after the Kalinga War (261 BCE)",
+      "Mentions that ashoka embraced Buddhism and propagated dhamma — non-violence",
+      "Mentions that and righteousness — through edicts inscribed on rocks and pillars across the empire",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 196,
+    "Domain": "Indian History",
+    "Questions": "What was the Gupta Golden Age?",
+    "rubric": [
+      "Mentions that the Gupta Empire (320–550 CE) saw advances in mathematics (Aryabhata",
+      "Mentions that decimal system)",
+      "Mentions that literature (Kalidasa)",
+      "Mentions that medicine (Sushruta)"
+    ]
+  },
+  {
+    "Scenario Id": 197,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Delhi Sultanate?",
+    "rubric": [
+      "Mentions that the Delhi Sultanate (1206–1526) established Muslim political authority in northern India",
+      "Mentions that influencing architecture (Qutb Minar)",
+      "Mentions that administration",
+      "Mentions that and culture while facing Mongol invasions and regional rebellions"
+    ]
+  },
+  {
+    "Scenario Id": 198,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Akbar's reign?",
+    "rubric": [
+      "Mentions that akbar (1556–1605) expanded the Mughal Empire",
+      "Mentions that pursued religious tolerance through Din-i-Ilahi",
+      "Mentions that abolished jizya",
+      "Mentions that integrated Rajput rulers through marriage alliances"
+    ]
+  },
+  {
+    "Scenario Id": 199,
+    "Domain": "Indian History",
+    "Questions": "What was the Maratha Empire's significance?",
+    "rubric": [
+      "Mentions that the Marathas under Shivaji and later Peshwas challenged Mughal authority and established a confederacy controlling much of India",
+      "Mentions that representing the last major Hindu political power before British dominance",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 200,
+    "Domain": "Indian History",
+    "Questions": "What was the Indus Valley Civilisation?",
+    "rubric": [
+      "Mentions that the Indus Valley (Harappan) Civilisation (2500–1900 BCE) was an advanced urban civilisation with planned cities (Mohenjo-daro",
+      "Mentions that drainage systems",
+      "Mentions that standardised weights",
+      "Mentions that and trade networks"
+    ]
+  },
+  {
+    "Scenario Id": 201,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Vernacular Press Act, 1878?",
+    "rubric": [
+      "Mentions that the Vernacular Press Act allowed magistrates to suppress seditious material in Indian-language newspapers",
+      "Mentions that targeting nationalist sentiment",
+      "Mentions that it angered educated Indians and accelerated political consciousness",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 202,
+    "Domain": "Indian History",
+    "Questions": "What was the Swadeshi Movement?",
+    "rubric": [
+      "Mentions that the Swadeshi Movement (1905) arose from the Partition of Bengal",
+      "Mentions that promoting boycott of British goods and use of Indian-made products",
+      "Mentions that fuelling nationalist sentiment and leading to the development of Indian industry",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 203,
+    "Domain": "Indian History",
+    "Questions": "Who was Subhas Chandra Bose and what was the Indian National Army?",
+    "rubric": [
+      "Mentions that netaji Subhas Chandra Bose founded the Indian National Army (Azad Hind Fauj) in 1942 with Japanese support to militarily liberate India",
+      "Mentions that the INA trials in 1945–46 galvanised Indian public opinion against British rule",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 204,
+    "Domain": "Indian History",
+    "Questions": "What was the Lucknow Pact (1916)?",
+    "rubric": [
+      "Mentions that the Lucknow Pact was an agreement between the Indian National Congress and the Muslim League on a joint scheme for constitutional reforms",
+      "Mentions that representing Hindu-Muslim political unity during the independence movement",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 205,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Government of India Act, 1935?",
+    "rubric": [
+      "Mentions that the 1935 Act provided provincial autonomy",
+      "Mentions that a federal structure (never implemented)",
+      "Mentions that and a federal court",
+      "Mentions that it formed the basis for India's 1950 Constitution and transferred significant power to elected Indian governments"
+    ]
+  },
+  {
+    "Scenario Id": 206,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Ilbert Bill controversy?",
+    "rubric": [
+      "Mentions that the 1883 Ilbert Bill proposed allowing Indian judges to try European defendants",
+      "Mentions that provoking fierce European opposition and being diluted",
+      "Mentions that it exposed racial prejudice in British India and sparked nationalist consciousness",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 207,
+    "Domain": "Indian History",
+    "Questions": "Who was Bal Gangadhar Tilak and what was his contribution?",
+    "rubric": [
+      "Mentions that lokmanya Tilak popularised nationalism through Ganapati and Shivaji festivals",
+      "Mentions that advocated 'Swaraj is my birthright'",
+      "Mentions that was imprisoned for sedition",
+      "Mentions that and through his newspapers Kesari and Mahratta spread nationalist ideas"
+    ]
+  },
+  {
+    "Scenario Id": 208,
+    "Domain": "Indian History",
+    "Questions": "What was the Morley-Minto Reforms (1909)?",
+    "rubric": [
+      "Mentions that the Indian Councils Act 1909 expanded legislative councils",
+      "Mentions that introduced separate electorates for Muslims (a precedent for partition)",
+      "Mentions that and allowed some elected Indian representation",
+      "Mentions that but fell short of real self-government"
+    ]
+  },
+  {
+    "Scenario Id": 209,
+    "Domain": "Indian History",
+    "Questions": "What was the Montagu-Chelmsford Reforms (1919)?",
+    "rubric": [
+      "Mentions that the Government of India Act 1919 introduced dyarchy in provinces (transferred and reserved subjects)",
+      "Mentions that expanded legislative councils with elected majority",
+      "Mentions that but retained British control over critical departments",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 210,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Poona Pact (1932)?",
+    "rubric": [
+      "Mentions that the Poona Pact between Ambedkar and Gandhi abandoned the Communal Award's separate electorate for Depressed Classes in favour of reserved seats in general electorate",
+      "Mentions that following Gandhi's fast-unto-death",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 211,
+    "Domain": "Indian History",
+    "Questions": "What was the Indian Independence Act, 1947?",
+    "rubric": [
+      "Mentions that the British Parliament enacted this Act granting independence to India and Pakistan from 15 August 1947",
+      "Mentions that ending 200 years of British rule",
+      "Mentions that partitioning the subcontinent",
+      "Mentions that and dissolving paramountcy over princely states"
+    ]
+  },
+  {
+    "Scenario Id": 212,
+    "Domain": "Indian History",
+    "Questions": "What was the Rowlatt Act (1919)?",
+    "rubric": [
+      "Mentions that the Rowlatt Act allowed indefinite detention without trial for suspected seditionists",
+      "Mentions that gandhi called for a satyagraha against it;",
+      "Mentions that the protests led to the Jallianwala Bagh massacre and mass nationalist mobilisation",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 213,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Cripps Mission (1942)?",
+    "rubric": [
+      "Mentions that the Cripps Mission offered India Dominion status after the war and the right to leave the Commonwealth",
+      "Mentions that but Congress rejected it as offering too little too late",
+      "Mentions that its failure led to the Quit India Movement",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 214,
+    "Domain": "Indian History",
+    "Questions": "Who was Jawaharlal Nehru and what was his vision for India?",
+    "rubric": [
+      "Mentions that india's first PM Nehru envisioned a modern secular socialist democratic India",
+      "Mentions that pursued non-alignment in foreign policy",
+      "Mentions that established IITs and IIMs",
+      "Mentions that and led industrialisation through the Planning Commission and Five Year Plans"
+    ]
+  },
+  {
+    "Scenario Id": 215,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Sardar Vallabhbhai Patel?",
+    "rubric": [
+      "Mentions that the 'Iron Man of India'",
+      "Mentions that orchestrated the integration of 565 princely states into the Indian Union through diplomacy and force (e.g",
+      "Mentions that hyderabad police action)",
+      "Mentions that ensuring India's territorial unity"
+    ]
+  },
+  {
+    "Scenario Id": 216,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Chauri Chaura incident?",
+    "rubric": [
+      "Mentions that in February 1922",
+      "Mentions that protesters in Chauri Chaura burned a police station",
+      "Mentions that killing 23 policemen",
+      "Mentions that deeply disturbed by the violence"
+    ]
+  },
+  {
+    "Scenario Id": 217,
+    "Domain": "Indian History",
+    "Questions": "What was the Arya Samaj and its significance?",
+    "rubric": [
+      "Mentions that founded by Swami Dayananda Saraswati in 1875",
+      "Mentions that the Arya Samaj promoted Vedic learning",
+      "Mentions that opposed idolatry and untouchability",
+      "Mentions that supported women's education and widow remarriage"
+    ]
+  },
+  {
+    "Scenario Id": 218,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the 1935 provincial elections?",
+    "rubric": [
+      "Mentions that the 1937 provincial elections under the 1935 Act resulted in Congress forming governments in 8 of 11 provinces",
+      "Mentions that demonstrating its mass base and governing capacity but alarming the Muslim League about Hindu dominance",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 219,
+    "Domain": "Indian History",
+    "Questions": "What was the Simon Commission and why was it boycotted?",
+    "rubric": [
+      "Mentions that the all-British Simon Commission (1927) was appointed to review India's constitutional future without Indian members",
+      "Mentions that provoking the Congress and Muslim League to boycott it under the slogan 'Simon Go Back'",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 220,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Gopal Krishna Gokhale?",
+    "rubric": [
+      "Mentions that a moderate Congress leader and social reformer",
+      "Mentions that founded the Servants of India Society",
+      "Mentions that mentored Gandhi",
+      "Mentions that advocated constitutional reform"
+    ]
+  },
+  {
+    "Scenario Id": 221,
+    "Domain": "Indian History",
+    "Questions": "What was the Bengal Renaissance?",
+    "rubric": [
+      "Mentions that the Bengal Renaissance (19th century) was an intellectual and cultural movement in Bengal involving figures like Ram Mohan Roy",
+      "Mentions that rabindranath Tagore",
+      "Mentions that ishwar Chandra Vidyasagar who reformed religion",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 222,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Wavell Plan (1945)?",
+    "rubric": [
+      "Mentions that the Wavell Plan proposed an Executive Council with equal Hindu-Muslim representation",
+      "Mentions that but failed because Jinnah insisted all Muslim seats go to Muslim League",
+      "Mentions that refusing Congress Muslim members",
+      "Mentions that deepening the divide"
+    ]
+  },
+  {
+    "Scenario Id": 223,
+    "Domain": "Indian History",
+    "Questions": "What was the role of women in India's freedom struggle?",
+    "rubric": [
+      "Mentions that women including Sarojini Naidu",
+      "Mentions that kasturba Gandhi",
+      "Mentions that aruna Asaf Ali",
+      "Mentions that vijayalakshmi Pandit"
+    ]
+  },
+  {
+    "Scenario Id": 224,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the 1911 Delhi Durbar?",
+    "rubric": [
+      "Mentions that the 1911 Delhi Durbar was a grand colonial gathering where King George V announced the transfer of India's capital from Calcutta to Delhi and the reversal of Bengal Partition",
+      "Mentions that demonstrating both imperial power and responsiveness",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 225,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Doctrine of Lapse under Dalhousie?",
+    "rubric": [
+      "Mentions that lord Dalhousie's Doctrine of Lapse (1848–56) annexed princely states without a natural heir",
+      "Mentions that including Satara",
+      "Mentions that the resulting discontent among princes contributed to the 1857 Revolt",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 226,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Indian nationalism during World War I?",
+    "rubric": [
+      "Mentions that while many Indians supported the British war effort (including Tilak and Annie Besant's Home Rule League)",
+      "Mentions that wWI also fuelled nationalism through the Lucknow Pact (1916) and Home Rule Leagues' demands for self-government",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 227,
+    "Domain": "Indian History",
+    "Questions": "What was the Mahalwari system?",
+    "rubric": [
+      "Mentions that introduced by Holt Mackenzie (1819)",
+      "Mentions that the Mahalwari system collected land revenue through village communities (mahal) in north India",
+      "Mentions that making the village collectively responsible for revenue payments to the British",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 228,
+    "Domain": "Indian History",
+    "Questions": "What was the Zamindari system?",
+    "rubric": [
+      "Mentions that the Permanent Settlement (1793) created a class of zamindars (revenue collectors) with permanent land rights in Bengal",
+      "Mentions that zamindars paid fixed revenue to the British but extracted maximum from peasants",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 229,
+    "Domain": "Indian History",
+    "Questions": "Who was Vivekananda and what was his significance?",
+    "rubric": [
+      "Mentions that swami Vivekananda (1863–1902) founded the Ramakrishna Mission",
+      "Mentions that championed Vedanta",
+      "Mentions that represented Hinduism at the 1893 Parliament of World Religions in Chicago",
+      "Mentions that and inspired nationalist pride in India's spiritual heritage"
+    ]
+  },
+  {
+    "Scenario Id": 230,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Congress Socialist Party?",
+    "rubric": [
+      "Mentions that founded in 1934 by Jayaprakash Narayan and others",
+      "Mentions that the CSP represented the left wing of the Congress",
+      "Mentions that advocating socialist economic policies",
+      "Mentions that peasant and worker rights"
+    ]
+  },
+  {
+    "Scenario Id": 231,
+    "Domain": "Indian History",
+    "Questions": "What was the role of the Indian press in the freedom movement?",
+    "rubric": [
+      "Mentions that newspapers like Kesari",
+      "Mentions that and The Hindu spread nationalist ideas",
+      "Mentions that exposed British misrule",
+      "Mentions that educated the public"
+    ]
+  },
+  {
+    "Scenario Id": 232,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Nehru Report (1928)?",
+    "rubric": [
+      "Mentions that the Nehru Report was the first constitutional proposal drafted entirely by Indians under Motilal Nehru",
+      "Mentions that it demanded dominion status",
+      "Mentions that fundamental rights",
+      "Mentions that and a secular state"
+    ]
+  },
+  {
+    "Scenario Id": 233,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of the Deccan Riots (1875)?",
+    "rubric": [
+      "Mentions that the Deccan Riots were peasant uprisings against moneylenders in the Deccan region of Maharashtra",
+      "Mentions that caused by high land revenue",
+      "Mentions that and exploitation",
+      "Mentions that they prompted the colonial government to pass the Deccan Agriculturists Relief Act"
+    ]
+  },
+  {
+    "Scenario Id": 234,
+    "Domain": "Indian History",
+    "Questions": "What was the Indian Civil Service and its significance?",
+    "rubric": [
+      "Mentions that the ICS was the elite administrative service of British India",
+      "Mentions that mostly staffed by British officers until late colonial rule",
+      "Mentions that its exam was held only in London until 1922",
+      "Mentions that surendranath Banerjee's dismissal from ICS fuelled his nationalism"
+    ]
+  },
+  {
+    "Scenario Id": 235,
+    "Domain": "Indian History",
+    "Questions": "What was the significance of Rabindranath Tagore?",
+    "rubric": [
+      "Mentions that tagore (1861–1941) was India's first Nobel laureate",
+      "Mentions that wrote the national anthem Jana Gana Mana",
+      "Mentions that renounced his knighthood after Jallianwala Bagh",
+      "Mentions that founded Santiniketan"
+    ]
+  },
+  {
+    "Scenario Id": 236,
+    "Domain": "Indian History",
+    "Questions": "What was the Permanent Settlement and its impact?",
+    "rubric": [
+      "Mentions that lord Cornwallis's Permanent Settlement (1793) fixed Bengal's land revenue permanently",
+      "Mentions that creating a landed aristocracy (zamindars) but impoverishing peasants",
+      "Mentions that stifling agricultural investment",
+      "Mentions that and causing recurring famines"
+    ]
+  },
+  {
+    "Scenario Id": 237,
+    "Domain": "Indian History",
+    "Questions": "What was the Lucknow Session of Indian National Congress (1899)?",
+    "rubric": [
+      "Mentions that the 1899 Lucknow Congress under George Yule was significant for early debates on moderate vs extremist factions",
+      "Mentions that though the 1916 Lucknow Pact session under Ambika Charan Mazumdar is more historically significant for Hindu-Muslim unity",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 238,
+    "Domain": "Indian History",
+    "Questions": "What was the role of Dadabhai Naoroji in India's freedom movement?",
+    "rubric": [
+      "Mentions that the 'Grand Old Man of India'",
+      "Mentions that articulated the Drain of Wealth theory",
+      "Mentions that became the first Indian MP in the British Parliament",
+      "Mentions that and mentored a generation of nationalists including Gandhi"
+    ]
+  },
+  {
+    "Scenario Id": 239,
+    "Domain": "Indian History",
+    "Questions": "What was the economic significance of British colonialism in India?",
+    "rubric": [
+      "Mentions that british colonialism deindustrialised India (decline of textiles",
+      "Mentions that extracted wealth through the drain theory",
+      "Mentions that built railways primarily for trade not welfare",
+      "Mentions that imposed high land revenue"
+    ]
+  },
+  {
+    "Scenario Id": 240,
+    "Domain": "Indian History",
+    "Questions": "What was the Champaran Satyagraha (1917)?",
+    "rubric": [
+      "Mentions that gandhi's first major Indian satyagraha was in Champaran",
+      "Mentions that against the tinkathia system forcing indigo cultivation on peasants",
+      "Mentions that it established Gandhi's mass movement methods and made him a national figure",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 241,
+    "Domain": "State Governance",
+    "Questions": "What is cooperative federalism in India?",
+    "rubric": [
+      "Mentions that cooperative federalism refers to harmonious Centre-state relations through shared responsibilities",
+      "Mentions that the NITI Aayog replacing the Planning Commission",
+      "Mentions that gST Council's consensus model",
+      "Mentions that and inter-state councils for policy coordination"
+    ]
+  },
+  {
+    "Scenario Id": 242,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the State Finance Commission?",
+    "rubric": [
+      "Mentions that sFCs (Article 243I/243Y) are constituted every 5 years to recommend devolution of taxes and grants from state to local bodies (panchayats and urban local bodies)",
+      "Mentions that mirroring the Central Finance Commission role",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 243,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the NITI Aayog replacing the Planning Commission?",
+    "rubric": [
+      "Mentions that nITI Aayog (2015) replaced the top-down Planning Commission",
+      "Mentions that promoting competitive and cooperative federalism",
+      "Mentions that state-specific planning",
+      "Mentions that aspirational districts programme"
+    ]
+  },
+  {
+    "Scenario Id": 244,
+    "Domain": "State Governance",
+    "Questions": "What is the model code of conduct in Indian elections?",
+    "rubric": [
+      "Mentions that the MCC is a set of guidelines issued by the Election Commission at election announcement",
+      "Mentions that restricting governments from making policy announcements",
+      "Mentions that and use of government machinery to favour the ruling party",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 245,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the 74th Constitutional Amendment?",
+    "rubric": [
+      "Mentions that the 74th Amendment (1992) gave constitutional status to Urban Local Bodies (municipalities)",
+      "Mentions that mandating elections",
+      "Mentions that setting up ward committees",
+      "Mentions that providing for metropolitan planning committees"
+    ]
+  },
+  {
+    "Scenario Id": 246,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the District Collector in Indian governance?",
+    "rubric": [
+      "Mentions that the District Collector (IAS officer) heads district administration",
+      "Mentions that oversees revenue collection",
+      "Mentions that law and order",
+      "Mentions that disaster management"
+    ]
+  },
+  {
+    "Scenario Id": 247,
+    "Domain": "State Governance",
+    "Questions": "What is the public distribution system and how does it function?",
+    "rubric": [
+      "Mentions that the PDS distributes subsidised food (wheat",
+      "Mentions that kerosene) through Fair Price Shops to eligible households",
+      "Mentions that the Targeted PDS divides beneficiaries into APL",
+      "Mentions that and Antyodaya Anna Yojana categories"
+    ]
+  },
+  {
+    "Scenario Id": 248,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the State List under the Indian Constitution?",
+    "rubric": [
+      "Mentions that the State List (List II",
+      "Mentions that seventh Schedule) contains 61 subjects on which state governments have exclusive legislative power",
+      "Mentions that including police",
+      "Mentions that public health"
+    ]
+  },
+  {
+    "Scenario Id": 249,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the Comptroller and Auditor General in state governance?",
+    "rubric": [
+      "Mentions that the CAG audits state government accounts and public enterprises",
+      "Mentions that submitting reports to state legislatures through the Governor",
+      "Mentions that state Public Accounts Committees examine these reports to ensure financial accountability",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 250,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the Concurrent List?",
+    "rubric": [
+      "Mentions that the Concurrent List (List III) contains 52 subjects on which both Parliament and state legislatures can legislate",
+      "Mentions that in case of conflict",
+      "Mentions that central law prevails",
+      "Mentions that it includes education"
+    ]
+  },
+  {
+    "Scenario Id": 251,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the High Court in state governance?",
+    "rubric": [
+      "Mentions that high Courts (Article 214) are the highest courts in states",
+      "Mentions that exercising original",
+      "Mentions that and writ jurisdiction",
+      "Mentions that they supervise subordinate courts"
+    ]
+  },
+  {
+    "Scenario Id": 252,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of MGNREGS for rural governance?",
+    "rubric": [
+      "Mentions that mahatma Gandhi National Rural Employment Guarantee Scheme legally guarantees 100 days of unskilled manual work per year to rural households",
+      "Mentions that providing livelihood security and creating durable community assets",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 253,
+    "Domain": "State Governance",
+    "Questions": "What is the role of Gram Panchayat in Indian governance?",
+    "rubric": [
+      "Mentions that gram Panchayat is the basic unit of self-governance in rural India under the 73rd Amendment",
+      "Mentions that responsible for local planning",
+      "Mentions that implementation of central and state schemes",
+      "Mentions that maintenance of village assets"
+    ]
+  },
+  {
+    "Scenario Id": 254,
+    "Domain": "State Governance",
+    "Questions": "What is the Right to Information Act and its significance for governance?",
+    "rubric": [
+      "Mentions that rTI Act (2005) empowers citizens to access public information within 30 days",
+      "Mentions that with State and Central Information Commissioners handling appeals",
+      "Mentions that it has increased transparency and accountability in government functioning",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 255,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the Police Act in state governance?",
+    "rubric": [
+      "Mentions that most states still use the colonial Police Act of 1861",
+      "Mentions that the Supreme Court in Prakash Singh case (2006) directed reforms including State Security Commissions",
+      "Mentions that fixed DGP tenure",
+      "Mentions that and separation of investigation from law and order"
+    ]
+  },
+  {
+    "Scenario Id": 256,
+    "Domain": "State Governance",
+    "Questions": "What is the One Nation One Ration Card scheme?",
+    "rubric": [
+      "Mentions that oNORC allows PDS beneficiaries to access their subsidised foodgrains from any Fair Price Shop across India using Aadhaar-linked ration cards",
+      "Mentions that benefiting migrant workers and their families",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 257,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the GST Council for state governance?",
+    "rubric": [
+      "Mentions that the GST Council (Article 279A) decides GST rates and policies by consensus of Centre and states",
+      "Mentions that with Centre having 1/3 votes and states 2/3",
+      "Mentions that representing structured cooperative federalism in fiscal matters",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 258,
+    "Domain": "State Governance",
+    "Questions": "What is the role of State Public Service Commissions?",
+    "rubric": [
+      "Mentions that sPSCs (Article 315) conduct recruitment examinations for state civil services",
+      "Mentions that provide advice on disciplinary matters",
+      "Mentions that and ensure merit-based selection for state government posts",
+      "Mentions that insulated from political interference"
+    ]
+  },
+  {
+    "Scenario Id": 259,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of social audit in MGNREGS?",
+    "rubric": [
+      "Mentions that social audits are mandatory community reviews of MGNREGS works",
+      "Mentions that ensuring public expenditure accountability by comparing records with ground reality",
+      "Mentions that gram Sabhas conduct audits with independent facilitators",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 260,
+    "Domain": "State Governance",
+    "Questions": "What is the Disaster Management Act, 2005 and its governance implications?",
+    "rubric": [
+      "Mentions that the DMA created a three-tier structure:",
+      "Mentions that nDMA (National)",
+      "Mentions that sDMAs (State)",
+      "Mentions that and DDMAs (District) for disaster risk reduction"
+    ]
+  },
+  {
+    "Scenario Id": 261,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the Chief Minister in state governance?",
+    "rubric": [
+      "Mentions that the Chief Minister (Article 164) heads the state Council of Ministers",
+      "Mentions that advises the Governor",
+      "Mentions that controls the state budget",
+      "Mentions that chairs cabinet meetings"
+    ]
+  },
+  {
+    "Scenario Id": 262,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of delimitation in Indian democracy?",
+    "rubric": [
+      "Mentions that delimitation readjusts the boundaries of assembly and parliamentary constituencies based on census data to reflect population changes",
+      "Mentions that the Delimitation Commission is independent to prevent gerrymandering",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 263,
+    "Domain": "State Governance",
+    "Questions": "What is the Aspirational Districts Programme?",
+    "rubric": [
+      "Mentions that the ADP (2018) identifies 112 least-developed districts and focuses on convergent action across health",
+      "Mentions that infrastructure",
+      "Mentions that and financial inclusion to rapidly improve development indicators",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 264,
+    "Domain": "State Governance",
+    "Questions": "What is the role of State Disaster Response Force?",
+    "rubric": [
+      "Mentions that sDRF is a specialised force in each state trained for disaster response including floods",
+      "Mentions that and chemical accidents",
+      "Mentions that states also maintain State Disaster Response Funds for immediate relief operations",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 265,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the State Human Rights Commission?",
+    "rubric": [
+      "Mentions that sHRCs are established under the Protection of Human Rights Act (1993) to inquire into violations of human rights by state governments and police",
+      "Mentions that providing accessible redress at the state level",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 266,
+    "Domain": "State Governance",
+    "Questions": "What is the National Informatics Centre's role in state e-governance?",
+    "rubric": [
+      "Mentions that nIC provides e-governance solutions including state government portals",
+      "Mentions that national databases",
+      "Mentions that video-conferencing",
+      "Mentions that and secure networks"
+    ]
+  },
+  {
+    "Scenario Id": 267,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the State Electricity Regulatory Commission?",
+    "rubric": [
+      "Mentions that sERCs regulate the power sector in states",
+      "Mentions that determining electricity tariffs",
+      "Mentions that grid standards",
+      "Mentions that and utility performance"
+    ]
+  },
+  {
+    "Scenario Id": 268,
+    "Domain": "State Governance",
+    "Questions": "What is the Anti-Defection Law's impact on state legislatures?",
+    "rubric": [
+      "Mentions that the Tenth Schedule prevents elected MLAs from switching parties without losing their seat (unless two-thirds merge)",
+      "Mentions that it has reduced floor-crossing but critics argue it undermines legislators' independence and conscience",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 269,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the Ombudsman (Lokayukta) in state governance?",
+    "rubric": [
+      "Mentions that lokayuktas investigate corruption and maladministration complaints against state government officials",
+      "Mentions that karnataka's Lokayukta under Justice Santosh Hegde is considered a model for its independence and effectiveness",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 270,
+    "Domain": "State Governance",
+    "Questions": "What is the PM SVANidhi scheme?",
+    "rubric": [
+      "Mentions that pradhan Mantri Street Vendor's AtmaNirbhar Nidhi provides collateral-free working capital loans (₹10,000–50,000) to street vendors to resume livelihoods after COVID-19",
+      "Mentions that with digital transaction incentives and social security linkage",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 271,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the Raj Bhavan (Governor's residence) in state politics?",
+    "rubric": [
+      "Mentions that raj Bhavan houses the Governor who can reserve Bills for Presidential assent",
+      "Mentions that invite parties to form government",
+      "Mentions that dismiss governments (controversially)",
+      "Mentions that and through Article 356 recommend President's Rule"
+    ]
+  },
+  {
+    "Scenario Id": 272,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of state land revenue administration?",
+    "rubric": [
+      "Mentions that land revenue remains a primary state subject",
+      "Mentions that revenue records (RoR)",
+      "Mentions that and mutation are managed by state revenue departments through the patwari/lekhpal system",
+      "Mentions that crucial for agricultural credit and property rights"
+    ]
+  },
+  {
+    "Scenario Id": 273,
+    "Domain": "State Governance",
+    "Questions": "What is the SVAMITVA scheme?",
+    "rubric": [
+      "Mentions that sVAMITVA (Survey of Villages and Mapping with Improvised Technology in Village Areas) maps inhabited village land using drones",
+      "Mentions that providing property rights cards (adhikar abhinav) to enable credit and reduce disputes",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 274,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of fiscal federalism in India?",
+    "rubric": [
+      "Mentions that fiscal federalism involves distribution of tax revenues (Finance Commission devolution",
+      "Mentions that grants) and expenditure responsibilities between Centre and states",
+      "Mentions that states receive about 41% of central taxes under the 15th Finance Commission",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 275,
+    "Domain": "State Governance",
+    "Questions": "What is the Pradhan Mantri Awas Yojana (Gramin)?",
+    "rubric": [
+      "Mentions that pMAY-G provides financial assistance of ₹1.2–1.3 lakh to below-poverty-line rural households for construction of pucca houses with basic amenities",
+      "Mentions that replacing INDIRA Awas Yojana",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 276,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the Public Accounts Committee in state legislatures?",
+    "rubric": [
+      "Mentions that pACs examine audit reports of the CAG",
+      "Mentions that scrutinise appropriation accounts",
+      "Mentions that ensure that money voted by the legislature is spent as intended",
+      "Mentions that and recommend corrective action for financial irregularities"
+    ]
+  },
+  {
+    "Scenario Id": 277,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the UID/Aadhaar in state service delivery?",
+    "rubric": [
+      "Mentions that aadhaar-based direct benefit transfer has eliminated duplicate and ghost beneficiaries in schemes like PDS",
+      "Mentions that and scholarships",
+      "Mentions that saving crores through plugging leakages",
+      "Mentions that though privacy concerns exist"
+    ]
+  },
+  {
+    "Scenario Id": 278,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the National Commission for Scheduled Castes?",
+    "rubric": [
+      "Mentions that nCSC (Article 338) monitors constitutional safeguards for SCs",
+      "Mentions that investigates complaints of discrimination",
+      "Mentions that advises on socio-economic development",
+      "Mentions that and reports to the President on the state of SC welfare"
+    ]
+  },
+  {
+    "Scenario Id": 279,
+    "Domain": "State Governance",
+    "Questions": "What is the Citizens' Charter and its significance for state governance?",
+    "rubric": [
+      "Mentions that citizens' Charters commit government departments to service standards (timeframes",
+      "Mentions that grievance redress",
+      "Mentions that and transparency",
+      "Mentions that some states have enacted Right to Service Acts making service delivery time-bound and legally enforceable"
+    ]
+  },
+  {
+    "Scenario Id": 280,
+    "Domain": "State Governance",
+    "Questions": "What is the PM Gati Shakti National Master Plan?",
+    "rubric": [
+      "Mentions that pM Gati Shakti (2021) is a digital platform integrating infrastructure planning across 16 ministries for coordinated multi-modal connectivity development",
+      "Mentions that avoiding duplication and ensuring last-mile connectivity",
+      "Explains significance or purpose where relevant",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 281,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of e-governance in India?",
+    "rubric": [
+      "Mentions that e-Governance initiatives (DigiLocker",
+      "Mentions that eSanjeevani) have digitised government services",
+      "Mentions that reduced corruption",
+      "Mentions that improved transparency"
+    ]
+  },
+  {
+    "Scenario Id": 282,
+    "Domain": "State Governance",
+    "Questions": "What is the role of Panchayati Raj Institutions in scheme implementation?",
+    "rubric": [
+      "Mentions that pRIs implement MGNREGS",
+      "Mentions that and PMGSY at the grassroots level",
+      "Mentions that with gram panchayats responsible for planning",
+      "Mentions that and maintaining assets under Gram Panchayat Development Plans"
+    ]
+  },
+  {
+    "Scenario Id": 283,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the Swachh Bharat Mission for local governance?",
+    "rubric": [
+      "Mentions that sBM-Gramin (2014) aimed at open defecation free villages by 2019",
+      "Mentions that involving local communities",
+      "Mentions that and self-help groups in building individual household latrines and community sanitation facilities",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 284,
+    "Domain": "State Governance",
+    "Questions": "What is the AMRUT scheme?",
+    "rubric": [
+      "Mentions that atal Mission for Rejuvenation and Urban Transformation provides urban infrastructure (water supply",
+      "Mentions that green spaces) in 500 cities with population over one lakh",
+      "Mentions that improving urban living quality",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 285,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the National Rural Livelihoods Mission?",
+    "rubric": [
+      "Mentions that dAY-NRLM organises rural poor women into Self-Help Groups",
+      "Mentions that provides credit linkage",
+      "Mentions that skill training",
+      "Mentions that and market support to over 9 crore rural women"
+    ]
+  },
+  {
+    "Scenario Id": 286,
+    "Domain": "State Governance",
+    "Questions": "What is the role of state vigilance commissions?",
+    "rubric": [
+      "Mentions that state Vigilance Commissions oversee anti-corruption measures in state governments",
+      "Mentions that advise on disciplinary proceedings against corrupt officials",
+      "Mentions that and provide oversight of state anti-corruption bureaus",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 287,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of decentralisation in Indian governance?",
+    "rubric": [
+      "Mentions that decentralisation through the 73rd and 74th Amendments transfers power to 2.5 lakh panchayats and 4,000+ urban local bodies",
+      "Mentions that enabling local democracy",
+      "Mentions that context-specific planning",
+      "Mentions that and citizen participation in governance"
+    ]
+  },
+  {
+    "Scenario Id": 288,
+    "Domain": "State Governance",
+    "Questions": "What is the PM POSHAN scheme's role in state governance?",
+    "rubric": [
+      "Mentions that pM Poshan (Mid-Day Meal) is implemented by states with central funding",
+      "Mentions that requiring state governments to provide cooked meals in government schools",
+      "Mentions that monitor quality",
+      "Mentions that maintain cook-cum-helper wages"
+    ]
+  },
+  {
+    "Scenario Id": 289,
+    "Domain": "State Governance",
+    "Questions": "What is the role of State Pollution Control Boards?",
+    "rubric": [
+      "Mentions that sPCBs regulate industrial effluents",
+      "Mentions that air and water pollution under the Water Act (1974) and Air Act (1981) and Environment Protection Act (1986)",
+      "Mentions that issuing consent to industry and taking enforcement action",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 290,
+    "Domain": "State Governance",
+    "Questions": "What is the Digital India programme's impact on state governance?",
+    "rubric": [
+      "Mentions that digital India has established Common Service Centres for digital service delivery in rural areas",
+      "Mentions that digitised land records",
+      "Mentions that enabled online permits and licences",
+      "Mentions that and created state-level e-governance ecosystems"
+    ]
+  },
+  {
+    "Scenario Id": 291,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the National Register of Citizens?",
+    "rubric": [
+      "Mentions that updated in Assam under Supreme Court direction",
+      "Mentions that identified Indian citizens from foreigners",
+      "Mentions that its national-level implications",
+      "Mentions that linkage with CAA"
+    ]
+  },
+  {
+    "Scenario Id": 292,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the Finance Department in state governance?",
+    "rubric": [
+      "Mentions that the State Finance Department controls the state budget",
+      "Mentions that approves expenditure proposals",
+      "Mentions that borrows funds",
+      "Mentions that manages the consolidated fund"
+    ]
+  },
+  {
+    "Scenario Id": 293,
+    "Domain": "State Governance",
+    "Questions": "What is the Pradhan Mantri Jan Dhan Yojana's significance for state governance?",
+    "rubric": [
+      "Mentions that pMJDY opened over 50 crore bank accounts",
+      "Mentions that enabling DBT for MGNREGS",
+      "Mentions that and COVID relief directly into beneficiary accounts",
+      "Mentions that transforming state welfare delivery and reducing intermediary corruption"
+    ]
+  },
+  {
+    "Scenario Id": 294,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the Information Commissioner in state governance?",
+    "rubric": [
+      "Mentions that state Information Commissioners hear second appeals and complaints under RTI Act",
+      "Mentions that can order disclosure of information",
+      "Mentions that impose penalties on PIOs for wrongful denial",
+      "Mentions that and recommend disciplinary action"
+    ]
+  },
+  {
+    "Scenario Id": 295,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the mission mode approach in Indian e-governance?",
+    "rubric": [
+      "Mentions that mission Mode Projects under NeGP focused on 31 specific e-governance initiatives (land records",
+      "Mentions that providing dedicated funding",
+      "Mentions that and accountability for digitisation",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 296,
+    "Domain": "State Governance",
+    "Questions": "What is the role of the Special Purpose Vehicle in state infrastructure?",
+    "rubric": [
+      "Mentions that sPVs are created for large infrastructure projects (Metro Rail",
+      "Mentions that smart Cities) as separate entities with state government and/or private equity",
+      "Mentions that enabling ring-fenced financing",
+      "Mentions that focused management"
+    ]
+  },
+  {
+    "Scenario Id": 297,
+    "Domain": "State Governance",
+    "Questions": "What is the Smart Cities Mission?",
+    "rubric": [
+      "Mentions that sCM selects 100 cities for integrated smart solutions in transportation",
+      "Mentions that using area-based development (retrofitting",
+      "Mentions that redevelopment) and pan-city initiatives with SPVs as implementing agencies",
+      "Provides an accurate and complete response"
+    ]
+  },
+  {
+    "Scenario Id": 298,
+    "Domain": "State Governance",
+    "Questions": "What is the National Social Assistance Programme?",
+    "rubric": [
+      "Mentions that nSAP provides social protection to BPL households through Indira Gandhi National Old Age Pension Scheme",
+      "Mentions that widow Pension",
+      "Mentions that disability Pension",
+      "Mentions that and family benefit on death of breadwinner"
+    ]
+  },
+  {
+    "Scenario Id": 299,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of inter-state water disputes in Indian governance?",
+    "rubric": [
+      "Mentions that inter-state water disputes (Cauvery",
+      "Mentions that narmada) involve state sovereignty over river waters",
+      "Mentions that federal arbitration through tribunals under the Inter-State Water Disputes Act",
+      "Mentions that and often lead to prolonged political and legal conflicts"
+    ]
+  },
+  {
+    "Scenario Id": 300,
+    "Domain": "State Governance",
+    "Questions": "What is the significance of the Concurrent List subjects in state governance?",
+    "rubric": [
+      "Mentions that subjects like education",
+      "Mentions that and labour in the Concurrent List have led to frequent Centre-state overlaps",
+      "Mentions that central laws like the RTE",
+      "Mentions that forest Rights Act"
+    ]
+  }
+]
