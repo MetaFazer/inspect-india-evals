@@ -32,5 +32,8 @@ Repository = "https://github.com/ac265640/inspect-india-evals"
 [tool.setuptools.packages.find]
 include = ["india_evals*"]
 
+[tool.setuptools.package-data]
+india_evals = ["*/**/*.json", "*/**/*.csv"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
