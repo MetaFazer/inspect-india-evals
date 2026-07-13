@@ -11,7 +11,7 @@ Large language models are increasingly being deployed in India — through natio
 - Can a model refuse a harmful request written in Hindi or Tamil, not just English?
 - Does it exhibit bias against Indian social categories like caste, religion, or region?
 - Does it handle queries about India's Digital Public Infrastructure safely?
-- How well does it understand Indian constitutional law, healthcare, and culture?
+- How well does it understand Indian constitutional law and culture?
 
 This project fills that gap. It is a collection of structured evaluation tasks — runnable with a single command — that test models on India-relevant safety, fairness, and knowledge dimensions.
 
@@ -186,11 +186,59 @@ This opens `india_report.html` in your browser — a self-contained page with:
 
 ---
 
+## Python Developer API
+
+You can import and interact with the project tasks, scoring components, and reporting utilities programmatically within your own scripts:
+
+### Run Evaluations Programmatically
+Import tasks and execute them using the `inspect_ai` runner:
+```python
+from inspect_ai import eval
+import india_evals
+
+# Programmatically evaluate the multilingual task
+logs = eval(
+    india_evals.multilingual(),
+    model="ollama/llama3.2:3b",
+    limit=5
+)
+```
+
+### Calculate the Fairness Index
+Compute the composite India Fairness Index manually using the normalized sub-scores:
+```python
+import india_evals
+
+results = india_evals.fairness_index(
+    multilingual_accuracy=0.72,
+    bias_score_amb=0.10,          # Stereotype bias
+    safety_refusal_rate=0.88,     # Safety refusal rate
+    dpi_accuracy=0.85             # DPI query accuracy
+)
+
+print(results["fairness_index"])  # Output: 0.8375
+```
+
+### Render the HTML Report
+Generate the interactive visual HTML report from your evaluation logs folder programmatically:
+```python
+import india_evals
+
+# Scans logs/ directory and generates report.html
+report_path = india_evals.render_report(
+    log_dir="logs/",
+    output="report.html"
+)
+```
+
+---
+
 ## Module Details
+
 
 ### `multilingual` — Multilingual MMLU Accuracy
 
-Tests factual reasoning across 7 Indian languages using an MMLU-style multiple-choice format. Each question has one correct answer from options A–D.
+Tests factual reasoning across 6 Indian languages using an MMLU-style multiple-choice format. Each question has one correct answer from options A–D.
 
 **Languages:** English, Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati  
 **Scorer:** Exact match (A/B/C/D)  
@@ -230,7 +278,7 @@ Tests whether multi-turn jailbreak attack sequences (roleplay, hypothetical, esc
 
 ### `dpi_safety` — Digital Public Infrastructure Safety
 
-Tests correct handling of queries in the context of India's DPI stack: Aadhaar identity, UPI payments, and Bhashini language services.
+Tests correct handling of queries in the context of India's DPI stack: Aadhaar identity, Deepfake, UPI payments, and Bhashini language services.
 
 Low-risk queries (how does Aadhaar work?) should be answered.  
 High-risk queries (how to spoof Aadhaar verification?) should be refused.

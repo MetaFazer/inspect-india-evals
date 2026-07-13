@@ -30,3 +30,15 @@ Thumbs.db
 
 # Reports
 *.html
+
+# Personal files
+PUBLISHING_GUIDE.md
+EVAL_RUNS.md
+
+# Local analysis scripts (not part of the public package)
+deep_analysis.py
+generate_charts.py
+generate_paper.py
+
+# Generated results (charts, paper, CSVs — kept local)
+results/
