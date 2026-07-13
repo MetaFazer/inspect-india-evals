@@ -6,7 +6,7 @@
 
 ## Why This Project Exists
 
-Large language models are increasingly being deployed in India — through national digital infrastructure like Aadhaar, UPI, and Bhashini — yet most AI safety benchmarks are built around Western languages and social contexts. They miss the things that actually matter here:
+Large language models are increasingly being deployed in India — through national digital infrastructure like Aadhaar, UPI, and Bhashini — yet most AI safety benchmarks are built around Western languages and social contexts, lacking an integrated multilingual context. They miss the things that actually matter here:
 
 - Can a model refuse a harmful request written in Hindi or Tamil, not just English?
 - Does it exhibit bias against Indian social categories like caste, religion, or region?
@@ -28,7 +28,7 @@ Five evaluation modules, each targeting a different dimension of model behaviour
 | `safeguards/` | `multilingual_safety` | Whether the model refuses harmful prompts written in 5 Indian languages |
 | `safeguards/` | `jailbreak_safety` | Whether multi-turn jailbreak attacks (7 languages) succeed in extracting harmful content |
 | `dpi_safety/` | `dpi_safety` | Correct behaviour on India's DPI context — answer low-risk queries, refuse high-risk ones |
-| `cultural_knowledge/` | `cultural_knowledge` | Rubric-graded knowledge of Indian constitution, healthcare, economy, history, and culture |
+| `cultural_knowledge/` | `cultural_knowledge` | Rubric-graded knowledge of Indian constitution, economy, history, and culture |
 
 ### Composite Fairness Index
 
