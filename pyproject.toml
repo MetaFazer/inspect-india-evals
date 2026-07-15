@@ -27,7 +27,7 @@ viz = [
 india-view = "india_evals.view_plugin.__main__:main"
 
 [project.urls]
-Repository = "https://github.com/ac265640/inspect-india-evals"
+Repository = "https://github.com/MetaFazer/inspect-india-evals"
 
 [tool.setuptools.packages.find]
 include = ["india_evals*"]
