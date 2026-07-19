@@ -90,22 +90,32 @@ inspect-india-evals/
 
 ### Install
 
+#### From PyPI (recommended)
+
+The package is published on PyPI — install it directly into any Python environment:
+
 ```bash
-# Clone the repo
-git clone https://github.com/ac265640/inspect-india-evals
-cd inspect-india-evals
-
-# Install dependencies
-pip install inspect-ai pandas
-
-# Optional: MLflow for experiment tracking
-pip install mlflow
-
-# Optional: Plotly for the visual heatmap report
-pip install plotly
+pip install inspect-india-evals
 ```
 
-No `pip install -e .` is required — the tasks are run directly with `inspect eval`.
+This installs all evaluation modules and their core dependencies (`inspect-ai`, `pandas`). Optional extras:
+
+```bash
+# MLflow experiment tracking
+pip install inspect-india-evals mlflow
+
+# Plotly heatmap report
+pip install inspect-india-evals plotly
+```
+
+#### From source (development)
+
+```bash
+git clone https://github.com/MetaFazer/inspect-india-evals
+cd inspect-india-evals
+
+pip install -e ".[dev]"
+```
 
 ---
 
