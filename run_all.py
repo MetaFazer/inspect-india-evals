@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 run_all.py — End-to-end evaluation runner with MLflow logging.
 
