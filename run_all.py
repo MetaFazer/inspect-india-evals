@@ -153,6 +153,35 @@ def log_to_mlflow(model: str, task_name: str, metrics: dict):
                 mlflow.log_metric(key.replace("/", "."), value)
 
 
+def find_latest_log(task_name: str, model_name: str) -> str | None:
+    """Find the most recent .eval log file matching task_name and model_name."""
+    log_dir = REPO_ROOT / "logs"
+    if not log_dir.exists():
+        return None
+
+    try:
+        from inspect_ai.log import read_eval_log
+    except ImportError:
+        return None
+
+    clean_model = model_name.lower()
+
+    for p in sorted(log_dir.glob("*.eval"), key=lambda path: path.stat().st_mtime, reverse=True):
+        try:
+            log = read_eval_log(str(p))
+            if log.eval:
+                eval_task = (log.eval.task or "").lower()
+                eval_model = (log.eval.model or "").lower()
+                task_match = (eval_task == task_name.lower()) or (task_name == "safety" and eval_task == "multilingual_safety") or (task_name == "jailbreak" and eval_task == "jailbreak_safety")
+                model_match = (eval_model == clean_model) or (clean_model.endswith(eval_model)) or (eval_model.endswith(clean_model))
+                if task_match and model_match:
+                    return str(p)
+        except Exception:
+            continue
+
+    return None
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
@@ -189,7 +218,7 @@ def main():
             if not args.skip_eval:
                 log_path = run_eval(task_spec, model, args.limit)
             else:
-                log_path = None
+                log_path = find_latest_log(task_name, model)
 
             if log_path:
                 metrics = parse_eval_log(log_path)
