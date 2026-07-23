@@ -60,9 +60,21 @@ TASKS = {
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
+def _clean_env() -> dict:
+    
+    env = os.environ.copy()
+    for var in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY",
+                "all_proxy", "ALL_PROXY"):
+        env.pop(var, None)
+    # Ensure localhost is always bypassed even if a proxy is set later
+    env["NO_PROXY"] = "localhost,127.0.0.1,::1"
+    env["no_proxy"] = "localhost,127.0.0.1,::1"
+    return env
+
+
 def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None:
     """Run a single inspect eval and return the log file path."""
-    cmd = ["inspect", "eval", task_spec, "--model", model, "--max-connections", "2"]
+    cmd = ["inspect", "eval", task_spec, "--model", model]
     if limit:
         cmd += ["--limit", str(limit)]
 
@@ -70,7 +82,7 @@ def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None
     print(f"  Running: {' '.join(cmd)}")
     print(f"{'='*60}\n")
 
-    result = subprocess.run(cmd, cwd=str(REPO_ROOT), capture_output=False)
+    result = subprocess.run(cmd, cwd=str(REPO_ROOT), capture_output=False, env=_clean_env())
 
     if result.returncode != 0:
         print(f"  ⚠  inspect eval failed (exit {result.returncode})")
@@ -83,6 +95,7 @@ def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None
 
     logs = sorted(log_dir.glob("*.eval"), key=lambda p: p.stat().st_mtime)
     return str(logs[-1]) if logs else None
+
 
 
 def parse_eval_log(log_path: str) -> dict:
