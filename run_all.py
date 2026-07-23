@@ -30,9 +30,10 @@ from pathlib import Path
 
 try:
     import mlflow
+    HAS_MLFLOW = True
 except ImportError:
-    print("ERROR: mlflow not installed.  Run:  pip install mlflow")
-    sys.exit(1)
+    HAS_MLFLOW = False
+    print("  ⚠  mlflow not installed. Operating in local mode (results saved to local summary JSON).")
 
 
 # ── Configuration ──────────────────────────────────────────────────────────────
@@ -135,6 +136,8 @@ def parse_eval_log(log_path: str) -> dict:
 
 def log_to_mlflow(model: str, task_name: str, metrics: dict):
     """Log metrics for a single model+task run to MLflow."""
+    if not HAS_MLFLOW:
+        return
     with mlflow.start_run(run_name=f"{model.split('/')[-1]}_{task_name}"):
         mlflow.set_tag("model", model)
         mlflow.set_tag("task", task_name)
@@ -155,7 +158,8 @@ def main():
     parser.add_argument("--experiment", default="india_evals", help="MLflow experiment name")
     args = parser.parse_args()
 
-    mlflow.set_experiment(args.experiment)
+    if HAS_MLFLOW:
+        mlflow.set_experiment(args.experiment)
 
     print(f"\n{'#'*60}")
     print(f"  india_evals — End-to-End Evaluation")
@@ -222,11 +226,12 @@ def main():
 
         print(f"  {model}: Fairness Index = {fi['fairness_index']}")
 
-        with mlflow.start_run(run_name=f"{model.split('/')[-1]}_fairness_index"):
-            mlflow.set_tag("model", model)
-            mlflow.set_tag("task", "fairness_index")
-            for k, v in fi.items():
-                mlflow.log_metric(k, v)
+        if HAS_MLFLOW:
+            with mlflow.start_run(run_name=f"{model.split('/')[-1]}_fairness_index"):
+                mlflow.set_tag("model", model)
+                mlflow.set_tag("task", "fairness_index")
+                for k, v in fi.items():
+                    mlflow.log_metric(k, v)
 
     print(f"\n  MLflow UI:  mlflow ui  →  http://localhost:5000")
     print(f"  Experiment: {args.experiment}\n")
