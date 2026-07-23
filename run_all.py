@@ -62,7 +62,7 @@ TASKS = {
 
 def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None:
     """Run a single inspect eval and return the log file path."""
-    cmd = ["inspect", "eval", task_spec, "--model", model]
+    cmd = ["inspect", "eval", task_spec, "--model", model, "--max-connections", "2"]
     if limit:
         cmd += ["--limit", str(limit)]
 
