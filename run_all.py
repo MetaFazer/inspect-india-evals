@@ -1,7 +1,7 @@
 """
 run_all.py — End-to-end evaluation runner with MLflow logging.
 
-Runs all 4 india_evals tasks against 3 local Ollama models, parses
+Runs all 6 india_evals tasks against 5 local Ollama models, parses
 the Inspect AI log files, and logs all metrics to MLflow.
 
 Usage:
@@ -12,9 +12,11 @@ Usage:
 
 Prerequisites:
     pip install mlflow
-    ollama pull llama3.2:3b
-    ollama pull qwen3:4b
-    ollama pull qwen3:8b
+    ollama pull qwen2.5:32b
+    ollama pull llama3.3:70b
+    ollama pull gemma2:27b
+    ollama pull mistral-small:24b
+    ollama pull llama3.1:8b
 """
 
 from __future__ import annotations
@@ -38,17 +40,20 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parent
 
 MODELS = [
-    "ollama/llama3.2:3b",
-    "ollama/qwen3:4b",
-    "ollama/qwen3:8b",
+    "ollama/qwen2.5:32b",
+    "ollama/llama3.3:70b",
+    "ollama/gemma2:27b",
+    "ollama/mistral-small:24b",
+    "ollama/llama3.1:8b",
 ]
 
 TASKS = {
-    "multilingual": "india_evals/multilingual/task.py@multilingual",
-    "bharatbbq":    "india_evals/bias/task.py@bharatbbq",
-    "safety":       "india_evals/safeguards/task.py@multilingual_safety",
-    "jailbreak":    "india_evals/safeguards/task.py@jailbreak_safety",
-    "dpi":          "india_evals/dpi_safety/task.py@dpi_safety",
+    "multilingual":       "india_evals/multilingual/task.py@multilingual",
+    "bharatbbq":          "india_evals/bias/task.py@bharatbbq",
+    "safety":             "india_evals/safeguards/task.py@multilingual_safety",
+    "jailbreak":          "india_evals/safeguards/task.py@jailbreak_safety",
+    "dpi":                "india_evals/dpi_safety/task.py@dpi_safety",
+    "cultural_knowledge": "india_evals/cultural_knowledge/task.py@cultural_knowledge",
 }
 
 

@@ -39,6 +39,7 @@ EVAL_RUNS.md
 deep_analysis.py
 generate_charts.py
 generate_paper.py
+generate_paper_with_subcategories.py
 
 # Generated results (charts, paper, CSVs — kept local)
 results/
