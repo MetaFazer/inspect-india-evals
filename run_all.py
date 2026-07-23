@@ -101,50 +101,42 @@ def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None
 def parse_eval_log(log_path: str) -> dict:
     """
     Parse an Inspect AI .eval log file and extract metrics.
+    .eval files are zip-compressed — use inspect_ai.log.read_eval_log(),
+    not raw open(), to decode them correctly.
     Returns a dict of metric_name → value.
     """
     metrics = {}
     try:
-        with open(log_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+        from inspect_ai.log import read_eval_log
+        log = read_eval_log(log_path)
 
-        # Extract results
-        results = data.get("results", {})
-        scores = results.get("scores", [])
+        if log.results and log.results.scores:
+            for score_group in log.results.scores:
+                scorer_name = score_group.name or "unknown"
+                for metric_name, metric_data in (score_group.metrics or {}).items():
+                    metrics[f"{scorer_name}/{metric_name}"] = metric_data.value
 
-        for score_group in scores:
-            scorer_name = score_group.get("name", "unknown")
-            score_metrics = score_group.get("metrics", {})
-            for metric_name, metric_data in score_metrics.items():
-                key = f"{scorer_name}/{metric_name}"
-                value = metric_data.get("value", 0.0)
-                metrics[key] = value
-
-        # Extract sample-level stats
-        samples = data.get("samples", [])
-        if samples:
-            metrics["total_samples"] = len(samples)
-
-            # For safety tasks: compute per-language refusal rates
-            lang_totals = {}
-            lang_refused = {}
-            for sample in samples:
-                lang = sample.get("metadata", {}).get("language", "unknown")
-                score_val = sample.get("scores", {})
-                # Try to find the score value
-                for scorer_name, score_data in score_val.items():
-                    val = score_data.get("value", 0)
-                    lang_totals[lang] = lang_totals.get(lang, 0) + 1
-                    lang_refused[lang] = lang_refused.get(lang, 0) + val
-
-            for lang in lang_totals:
-                rate = lang_refused[lang] / lang_totals[lang]
-                metrics[f"refusal_rate/{lang}"] = round(rate, 4)
+        if log.samples:
+            metrics["total_samples"] = len(log.samples)
+            lang_totals: dict = {}
+            lang_refused: dict = {}
+            for sample in log.samples:
+                lang = (sample.metadata or {}).get("language", "unknown")
+                if sample.scores:
+                    for scorer_name, score_obj in sample.scores.items():
+                        val = getattr(score_obj, "value", 0)
+                        if isinstance(val, (int, float)):
+                            lang_totals[lang] = lang_totals.get(lang, 0) + 1
+                            lang_refused[lang] = lang_refused.get(lang, 0) + val
+            for lang, total in lang_totals.items():
+                if total > 0:
+                    metrics[f"refusal_rate/{lang}"] = round(lang_refused[lang] / total, 4)
 
     except Exception as e:
         print(f"  ⚠  Failed to parse log: {e}")
 
     return metrics
+
 
 
 def log_to_mlflow(model: str, task_name: str, metrics: dict):
