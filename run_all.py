@@ -60,7 +60,7 @@ TASKS = {
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
-def _clean_env() -> dict:
+def _clean_env() -> Dict[str, str]:
     
     env = os.environ.copy()
     for var in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY",
@@ -72,7 +72,7 @@ def _clean_env() -> dict:
     return env
 
 
-def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None:
+def run_eval(task_spec: str, model: str, limit: Optional[int] = None) -> Optional[str]:
     """Run a single inspect eval and return the log file path."""
     cmd = ["inspect", "eval", task_spec, "--model", model]
     if limit:
@@ -98,7 +98,7 @@ def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None
 
 
 
-def parse_eval_log(log_path: str) -> dict:
+def parse_eval_log(log_path: str) -> Dict[str, Any]:
     """
     Parse an Inspect AI .eval log file and extract metrics.
     .eval files are zip-compressed — use inspect_ai.log.read_eval_log(),
