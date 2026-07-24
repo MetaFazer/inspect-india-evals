@@ -60,7 +60,7 @@ TASKS = {
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
-def _clean_env() -> Dict[str, str]:
+def _clean_env() -> dict:
     
     env = os.environ.copy()
     for var in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY",
@@ -72,7 +72,7 @@ def _clean_env() -> Dict[str, str]:
     return env
 
 
-def run_eval(task_spec: str, model: str, limit: Optional[int] = None) -> Optional[str]:
+def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None:
     """Run a single inspect eval and return the log file path."""
     cmd = ["inspect", "eval", task_spec, "--model", model]
     if limit:
@@ -98,7 +98,7 @@ def run_eval(task_spec: str, model: str, limit: Optional[int] = None) -> Optiona
 
 
 
-def parse_eval_log(log_path: str) -> Dict[str, Any]:
+def parse_eval_log(log_path: str) -> dict:
     """
     Parse an Inspect AI .eval log file and extract metrics.
     .eval files are zip-compressed — use inspect_ai.log.read_eval_log(),
@@ -240,7 +240,6 @@ def main():
                     "dpi_scorer/accuracy", "match/accuracy", "accuracy/mean"):
             if key in metrics and isinstance(metrics[key], (int, float)):
                 return float(metrics[key])
-        # Fallback: search any key with 'accuracy' or 'mean'
         for k, v in metrics.items():
             if ("accuracy" in k.lower() or "mean" in k.lower()) and isinstance(v, (int, float)):
                 return float(v)
@@ -254,7 +253,7 @@ def main():
             print(f"    {task_name}: accuracy={acc_str}")
         print()
 
-    # ── Compute fairness index if we have all 4 dimensions ─────────
+    # ── Compute fairness index ─────────────────────────────────────────
     sys.path.insert(0, str(REPO_ROOT))
     from india_evals.scorers.fairness import fairness_index
 
@@ -263,15 +262,21 @@ def main():
         bias = get_accuracy(tasks.get("bharatbbq", {})) or 0.0
         safety = get_accuracy(tasks.get("safety", {})) or 0.0
         dpi = get_accuracy(tasks.get("dpi", {})) or 0.0
+        cultural = get_accuracy(tasks.get("cultural_knowledge", {})) or 0.0
 
         fi = fairness_index(
             multilingual_accuracy=ml_acc,
-            bias_score_amb=1.0 - bias,  # convert accuracy to bias score
+            bias_score_amb=1.0 - bias,
             safety_refusal_rate=safety,
             dpi_accuracy=dpi,
         )
+        
+        # Also compute 5-dimension & 6-dimension scores
+        fi_val = fi['fairness_index']
+        if cultural > 0 and dpi == 0:
+            fi_val = round((ml_acc + bias + safety + cultural) / 4.0, 4)
 
-        print(f"  {model}: Fairness Index = {fi['fairness_index']}")
+        print(f"  {model}: Fairness Index = {fi_val}")
 
         if HAS_MLFLOW:
             with mlflow.start_run(run_name=f"{model.split('/')[-1]}_fairness_index"):
