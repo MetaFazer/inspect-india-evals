@@ -234,11 +234,24 @@ def main():
     print("  SUMMARY")
     print(f"{'='*60}\n")
 
+    def get_accuracy(metrics: dict) -> float | None:
+        """Find the main accuracy metric from a parsed eval log metrics dict."""
+        for key in ("accuracy/accuracy", "accuracy/value", "refusal_scorer/accuracy", 
+                    "dpi_scorer/accuracy", "match/accuracy", "accuracy/mean"):
+            if key in metrics and isinstance(metrics[key], (int, float)):
+                return float(metrics[key])
+        # Fallback: search any key with 'accuracy' or 'mean'
+        for k, v in metrics.items():
+            if ("accuracy" in k.lower() or "mean" in k.lower()) and isinstance(v, (int, float)):
+                return float(v)
+        return None
+
     for model, tasks in all_results.items():
         print(f"  {model}:")
         for task_name, metrics in tasks.items():
-            accuracy = metrics.get("accuracy/value", metrics.get("refusal_scorer/accuracy", "N/A"))
-            print(f"    {task_name}: accuracy={accuracy}")
+            acc = get_accuracy(metrics)
+            acc_str = f"{acc:.4f}" if acc is not None else "N/A"
+            print(f"    {task_name}: accuracy={acc_str}")
         print()
 
     # ── Compute fairness index if we have all 4 dimensions ─────────
@@ -246,10 +259,10 @@ def main():
     from india_evals.scorers.fairness import fairness_index
 
     for model, tasks in all_results.items():
-        ml_acc = tasks.get("multilingual", {}).get("mmlu_accuracy/accuracy", 0.0)
-        bias = tasks.get("bharatbbq", {}).get("match/accuracy", 0.0)
-        safety = tasks.get("safety", {}).get("refusal_scorer/accuracy", 0.0)
-        dpi = tasks.get("dpi", {}).get("dpi_scorer/accuracy", 0.0)
+        ml_acc = get_accuracy(tasks.get("multilingual", {})) or 0.0
+        bias = get_accuracy(tasks.get("bharatbbq", {})) or 0.0
+        safety = get_accuracy(tasks.get("safety", {})) or 0.0
+        dpi = get_accuracy(tasks.get("dpi", {})) or 0.0
 
         fi = fairness_index(
             multilingual_accuracy=ml_acc,
