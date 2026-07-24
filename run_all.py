@@ -42,11 +42,10 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parent
 
 MODELS = [
-    "ollama/qwen2.5:32b",
-    "ollama/llama3.3:70b",
     "ollama/gemma2:27b",
-    "ollama/mistral-small:24b",
-    "ollama/llama3.1:8b",
+    "ollama/qwen2.5:32b",
+    "ollama/mashriram/sarvam-m",
+    "ollama/deepseek-r1:14b",
 ]
 
 TASKS = {
