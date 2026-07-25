@@ -22,13 +22,58 @@ from inspect_ai.scorer import Target
 # standalone file without requiring the package to be installed.
 
 def _normalize_answer(text: str) -> str:
-    """Extract first A/B/C/D token from model output."""
+    """Smartly extract target A/B/C/D option letter from model output across all 16 Indian languages."""
     if not text:
         return ""
-    text = str(text).strip().upper()
-    match = re.search(r"\b([ABCD])\b", text)
-    if match:
-        return match.group(1)
+    
+    text = str(text).strip()
+    
+    # 1. Search for explicit answer indicators across 16 Indian languages + English
+    indicators = [
+        # English / General
+        r'(?:THE CORRECT ANSWER IS|ANSWER IS|CORRECT OPTION|OPTION|CHOICE|SO THE ANSWER IS|HENCE THE ANSWER IS|THE ANSWER SHOULD BE)\s*[:\-]*\s*([A-D])\b',
+        # Hindi, Marathi, Nepali, Konkani (Devanagari)
+        r'(?:उत्तर|विकल्प|सही)\s*[:\-]*\s*([A-D])\b', r'(?:विकल्प|उत्तर)\s*([ABCD])\b',
+        # Bengali & Assamese (Eastern Nagari)
+        r'(?:উত্তর|বিকল্প|সঠিক)\s*[:\-]*\s*([A-D])\b',
+        # Tamil
+        r'(?:விடை|தேர்வு|விருப்பம்|சரியான)\s*[:\-]*\s*([A-D])\b',
+        # Telugu
+        r'(?:సమాధానం|ఎంపిక|సరైన)\s*[:\-]*\s*([A-D])\b',
+        # Kannada
+        r'(?:ಉತ್ತರ|ಆಯ್ಕೆ|ಸರಿಯಾದ)\s*[:\-]*\s*([A-D])\b',
+        # Malayalam
+        r'(?:ഉത്തരം|ഓപ്ഷൻ|ശരിയായ)\s*[:\-]*\s*([A-D])\b',
+        # Gujarati
+        r'(?:જવાબ|વિકલ્પ|સાચો)\s*[:\-]*\s*([A-D])\b',
+        # Odia
+        r'(?:ଉତ୍ତର|ବିକଳ୍ପ|ସଠିକ୍)\s*[:\-]*\s*([A-D])\b',
+        # Punjabi (Gurmukhi)
+        r'(?:ਜਵਾਬ|ਚੋਣ|ਸਹੀ)\s*[:\-]*\s*([A-D])\b',
+        # Urdu (Perso-Arabic)
+        r'(?:جواب|گزینہ|صحیح)\s*[:\-]*\s*([A-D])\b',
+        # Manipuri
+        r'(?:পাউখুম|ময়েক)\s*[:\-]*\s*([A-D])\b',
+        # End-of-string single letter fallback
+        r'\b([A-D])\b\s*$'
+    ]
+    
+    for pat in indicators:
+        m = re.search(pat, text, re.IGNORECASE)
+        if m:
+            return m.group(1).upper()
+            
+    # 2. Look for (A), (B), (C), (D) or **A**, **B**, **C**, **D** near the end of response
+    reversed_text = "\n".join(reversed([l.strip() for l in text.split("\n") if l.strip()]))
+    m = re.search(r'[\(\*\s\:\-\[\'\"]([A-D])[\)\*\s\:\-\]\'\"]', reversed_text, re.IGNORECASE)
+    if m:
+        return m.group(1).upper()
+
+    # 3. Fallback: Take the last standalone A/B/C/D token in the completion
+    all_letters = re.findall(r'\b([ABCD])\b', text)
+    if all_letters:
+        return all_letters[-1].upper()
+        
     return ""
 
 
