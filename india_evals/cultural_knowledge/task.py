@@ -119,7 +119,7 @@ Rules:
 
 
 @scorer(metrics=[mean()])
-def rubric_scorer(judge_model: str = "ollama/llama3.2:3b"):
+def rubric_scorer(judge_model: str | None = None):
     """
     LLM-as-judge scorer using a rubric of 4 criteria per question.
 
@@ -137,7 +137,7 @@ def rubric_scorer(judge_model: str = "ollama/llama3.2:3b"):
         prompt = _build_judge_prompt(question, answer, rubric)
 
         try:
-            judge  = get_model(judge_model)
+            judge  = get_model(judge_model) if judge_model else get_model()
             output = await judge.generate([ChatMessageUser(content=prompt)])
             text   = output.completion.strip()
 
