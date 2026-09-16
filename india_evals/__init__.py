@@ -10,7 +10,7 @@ from india_evals.bias.task import bharatbbq
 from india_evals.safeguards.task import multilingual_safety, jailbreak_safety
 from india_evals.dpi_safety.task import dpi_safety
 from india_evals.cultural_knowledge.task import cultural_knowledge
-from india_evals.scorers.fairness import fairness_index
+from india_evals.scorers.fairness import fairness_index, dimension_variance, sensitivity_analysis
 from india_evals.view_plugin import render_report
 
 __version__ = "0.1.0"
@@ -23,6 +23,8 @@ __all__ = [
     "dpi_safety",
     "cultural_knowledge",
     "fairness_index",
+    "dimension_variance",
+    "sensitivity_analysis",
     "render_report",
 ]
 
