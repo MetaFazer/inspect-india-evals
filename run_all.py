@@ -285,35 +285,93 @@ def main():
 
     # ── Compute fairness index ─────────────────────────────────────────
     sys.path.insert(0, str(REPO_ROOT))
-    from india_evals.scorers.fairness import fairness_index
+    from india_evals.scorers.fairness import (
+        fairness_index,
+        dimension_variance,
+        sensitivity_analysis,
+        EQUAL_WEIGHTS,
+        SAFETY_WEIGHTED,
+        ACCESS_WEIGHTED,
+    )
+
+    # Five-dimension (current) IFI per model, keyed for dimension_variance()
+    # and sensitivity_analysis() below. ifi_v1_4dim is the legacy score
+    # (pre-jailbreak) kept alongside ifi_v2_5dim so published figures stay
+    # traceable to which version produced them.
+    ifi_5dim_by_model: dict[str, dict] = {}
 
     for model, tasks in all_results.items():
         ml_acc = get_accuracy(tasks.get("multilingual", {})) or 0.0
         bias = get_accuracy(tasks.get("bharatbbq", {})) or 0.0
         safety = get_accuracy(tasks.get("safety", {})) or 0.0
+        jailbreak = get_accuracy(tasks.get("jailbreak", {})) or 0.0
         dpi = get_accuracy(tasks.get("dpi", {})) or 0.0
-        cultural = get_accuracy(tasks.get("cultural_knowledge", {})) or 0.0
 
-        fi = fairness_index(
+        ifi_v1_4dim = fairness_index(
             multilingual_accuracy=ml_acc,
             bias_score_amb=1.0 - bias,
             safety_refusal_rate=safety,
             dpi_accuracy=dpi,
         )
-        
-        # Also compute 5-dimension & 6-dimension scores
-        fi_val = fi['fairness_index']
-        if cultural > 0 and dpi == 0:
-            fi_val = round((ml_acc + bias + safety + cultural) / 4.0, 4)
+        ifi_v2_5dim = fairness_index(
+            multilingual_accuracy=ml_acc,
+            bias_score_amb=1.0 - bias,
+            safety_refusal_rate=safety,
+            dpi_accuracy=dpi,
+            jailbreak_refusal_rate=jailbreak,
+        )
+        ifi_5dim_by_model[model] = ifi_v2_5dim
 
-        print(f"  {model}: Fairness Index = {fi_val}")
+        print(f"  {model}: IFI (v1, 4-dim, legacy) = {ifi_v1_4dim['fairness_index']}   "
+              f"IFI (v2, 5-dim incl. jailbreak) = {ifi_v2_5dim['fairness_index']}")
 
         if HAS_MLFLOW:
             with mlflow.start_run(run_name=f"{model.split('/')[-1]}_fairness_index"):
                 mlflow.set_tag("model", model)
                 mlflow.set_tag("task", "fairness_index")
-                for k, v in fi.items():
-                    mlflow.log_metric(k, v)
+                mlflow.log_metric("ifi_v1_4dim", ifi_v1_4dim["fairness_index"])
+                mlflow.log_metric("ifi_v2_5dim", ifi_v2_5dim["fairness_index"])
+                for k, v in ifi_v1_4dim.items():
+                    mlflow.log_metric(f"v1_4dim.{k}", v)
+                for k, v in ifi_v2_5dim.items():
+                    mlflow.log_metric(f"v2_5dim.{k}", v)
+
+    # ── Which dimensions actually discriminate between models? ──────────
+    if ifi_5dim_by_model:
+        print(f"\n{'='*60}")
+        print("  DIMENSION VARIANCE (5-dim IFI, does this dimension discriminate?)")
+        print(f"{'='*60}\n")
+        variance_report = dimension_variance(ifi_5dim_by_model)
+        print(f"  {'dimension':<14} {'min':>6} {'max':>6} {'range':>7}   discriminative?")
+        for dim, stats in variance_report.items():
+            flag = "yes" if stats["discriminative"] else "NO — constant"
+            print(f"  {dim:<14} {stats['min']:>6.3f} {stats['max']:>6.3f} {stats['range']:>7.3f}   {flag}")
+
+        # ── Weight sensitivity analysis ──────────────────────────────────
+        print(f"\n{'='*60}")
+        print("  WEIGHT SENSITIVITY ANALYSIS")
+        print(f"{'='*60}\n")
+        analysis = sensitivity_analysis(
+            ifi_5dim_by_model,
+            {
+                "EQUAL_WEIGHTS": EQUAL_WEIGHTS,
+                "SAFETY_WEIGHTED": SAFETY_WEIGHTED,
+                "ACCESS_WEIGHTED": ACCESS_WEIGHTED,
+            },
+        )
+        for scheme, ranking in analysis["rankings"].items():
+            scores = analysis["scores"][scheme]
+            ranked = ", ".join(f"{m} ({scores[m]})" for m in ranking)
+            print(f"  {scheme:<16} {ranked}")
+
+        if analysis["ranking_stable"]:
+            print(f"\n  Top-ranked model is STABLE across all three weight schemes: "
+                  f"{next(iter(analysis['top_model_by_scheme'].values()))}")
+        else:
+            print(f"\n  Top-ranked model CHANGES depending on weighting — "
+                  "the equal-weight ranking is not robust:")
+            for scheme, top_model in analysis["top_model_by_scheme"].items():
+                print(f"    {scheme:<16} → {top_model}")
 
     print(f"\n  MLflow UI:  mlflow ui  →  http://localhost:5000")
     print(f"  Experiment: {args.experiment}\n")
