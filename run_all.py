@@ -48,6 +48,14 @@ MODELS = [
     "ollama/deepseek-r1:14b",
 ]
 
+# The judge must be independent of every model under test. Configurable via
+# --judge-model or INDIA_EVALS_JUDGE; must never be one of MODELS (checked
+# at startup in main()).
+DEFAULT_JUDGE_MODEL = os.environ.get("INDIA_EVALS_JUDGE", "ollama/llama3.1:8b")
+
+# Tasks whose scorer takes a judge_model parameter (the LLM-as-judge tasks).
+JUDGED_TASKS = {"safety", "jailbreak", "dpi", "cultural_knowledge"}
+
 TASKS = {
     "multilingual":       "india_evals/multilingual/task.py@multilingual",
     "bharatbbq":          "india_evals/bias/task.py@bharatbbq",
@@ -72,11 +80,19 @@ def _clean_env() -> dict:
     return env
 
 
-def run_eval(task_spec: str, model: str, limit: int | None = None) -> str | None:
+def run_eval(
+    task_spec: str,
+    model: str,
+    limit: int | None = None,
+    judge_model: str | None = None,
+    task_name: str | None = None,
+) -> str | None:
     """Run a single inspect eval and return the log file path."""
     cmd = ["inspect", "eval", task_spec, "--model", model]
     if limit:
         cmd += ["--limit", str(limit)]
+    if judge_model and task_name in JUDGED_TASKS:
+        cmd += ["-T", f"judge_model={judge_model}"]
 
     print(f"\n{'='*60}")
     print(f"  Running: {' '.join(cmd)}")
@@ -190,7 +206,20 @@ def main():
     parser.add_argument("--tasks", nargs="+", default=list(TASKS.keys()), help="Tasks to run")
     parser.add_argument("--skip-eval", action="store_true", help="Skip eval runs, only log existing results")
     parser.add_argument("--experiment", default="india_evals", help="MLflow experiment name")
+    parser.add_argument("--judge-model", default=DEFAULT_JUDGE_MODEL,
+                         help="LLM judge model for safety/dpi/cultural_knowledge scorers "
+                              "(default: $INDIA_EVALS_JUDGE or ollama/llama3.1:8b). "
+                              "Must not be one of --models.")
     args = parser.parse_args()
+
+    if args.judge_model in args.models:
+        print(
+            f"  ⚠  ERROR: judge model '{args.judge_model}' is also one of the models "
+            "under evaluation. The judge must be independent of every model being "
+            "tested — pick a different --judge-model or INDIA_EVALS_JUDGE.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     if HAS_MLFLOW:
         mlflow.set_experiment(args.experiment)
@@ -200,6 +229,7 @@ def main():
     print(f"  Models:  {', '.join(args.models)}")
     print(f"  Tasks:   {', '.join(args.tasks)}")
     print(f"  Limit:   {args.limit or 'FULL DATASET'}")
+    print(f"  Judge:   {args.judge_model}")
     print(f"{'#'*60}\n")
 
     all_results = {}
@@ -215,7 +245,7 @@ def main():
             task_spec = TASKS[task_name]
 
             if not args.skip_eval:
-                log_path = run_eval(task_spec, model, args.limit)
+                log_path = run_eval(task_spec, model, args.limit, args.judge_model, task_name)
             else:
                 log_path = find_latest_log(task_name, model)
 
