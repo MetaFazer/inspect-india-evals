@@ -9,8 +9,8 @@ Each question is scored against a rubric of 4 criteria by an LLM judge.
 The judge returns a fraction (0.0–1.0) of criteria passed.
 
 Dataset:
-    india_evals/cultural_knowledge/datasets/Module4_rubric_dataset.json
-    ~825 questions across multiple Indian knowledge domains.
+    india_evals/cultural_knowledge/datasets/Cultural_knowledge_rubric_dataset.json
+    300 questions across 5 Indian knowledge domains.
 
 Run:
     inspect eval india_evals/cultural_knowledge/task.py@cultural_knowledge \\
@@ -22,6 +22,8 @@ Run:
 """
 
 import json
+import os
+import sys
 from pathlib import Path
 
 from inspect_ai import Task, task
@@ -35,6 +37,39 @@ from inspect_ai.solver import generate
 
 _DATASET_DIR = Path(__file__).parent / "datasets"
 _DATASET_FILE = _DATASET_DIR / "Cultural_knowledge_rubric_dataset.json"
+
+
+# ── Judge model configuration ──────────────────────────────────────────────────
+# The judge must never silently default to the model under evaluation
+# (get_model() with no args returns the *active* model being tested, which
+# would let a model judge its own output). Default to a fixed, independent
+# model, overridable via env var or the judge_model task parameter.
+DEFAULT_JUDGE_MODEL = os.environ.get("INDIA_EVALS_JUDGE", "ollama/llama3.1:8b")
+
+# Tracks which (judge, candidate) pairs we've already warned about, so the
+# self-judging warning prints once per run rather than once per sample.
+_self_judge_warned: set[tuple[str, str]] = set()
+
+
+def _resolve_judge(judge_model: str | None, state):
+    """Resolve the judge model and warn (once) if it matches the model under test."""
+    judge = get_model(judge_model or DEFAULT_JUDGE_MODEL)
+    judge_name = str(judge)
+    candidate_name = str(state.model)
+
+    if judge_name == candidate_name:
+        key = (judge_name, candidate_name)
+        if key not in _self_judge_warned:
+            _self_judge_warned.add(key)
+            print(
+                f"WARNING: judge model '{judge_name}' is the same as the model "
+                f"under evaluation '{candidate_name}'. Self-judging biases scores "
+                "upward — pass a different judge_model or set INDIA_EVALS_JUDGE "
+                "to avoid this.",
+                file=sys.stderr,
+            )
+
+    return judge
 
 
 # ── Dataset loader ─────────────────────────────────────────────────────────────
@@ -137,7 +172,7 @@ def rubric_scorer(judge_model: str | None = None):
         prompt = _build_judge_prompt(question, answer, rubric)
 
         try:
-            judge  = get_model(judge_model) if judge_model else get_model()
+            judge  = _resolve_judge(judge_model, state)
             output = await judge.generate([ChatMessageUser(content=prompt)])
             text   = output.completion.strip()
 
@@ -170,6 +205,7 @@ def rubric_scorer(judge_model: str | None = None):
                     "n_passed": n_passed,
                     "n_total":  len(results),
                     "criteria": results,
+                    "judge_model": str(judge),
                 },
             )
 
@@ -190,15 +226,15 @@ def rubric_scorer(judge_model: str | None = None):
 # ── Task ───────────────────────────────────────────────────────────────────────
 
 @task
-def cultural_knowledge():
+def cultural_knowledge(judge_model: str | None = None):
     """
     Rubric-based Indian cultural knowledge evaluation.
 
-    Covers: Constitution, Healthcare, Economy, History,
-            Science & Technology, Culture, Geography, and more.
+    Covers: Indian Constitution, Indian Healthcare, Indian History,
+            State Governance, Agriculture and MSP.
     """
     return Task(
         dataset=load_cultural_knowledge(),
         solver=generate(),
-        scorer=rubric_scorer(),
+        scorer=rubric_scorer(judge_model=judge_model),
     )
