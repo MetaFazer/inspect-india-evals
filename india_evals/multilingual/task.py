@@ -22,13 +22,13 @@ from inspect_ai.scorer import Target
 # standalone file without requiring the package to be installed.
 
 def _normalize_answer(text: str) -> str:
-    """Smartly extract target A/B/C/D option letter from model output across all 16 Indian languages."""
+    """Smartly extract target A/B/C/D option letter from model output across all 16 languages (15 Indian + English)."""
     if not text:
         return ""
-    
+
     text = str(text).strip()
-    
-    # 1. Search for explicit answer indicators across 16 Indian languages + English
+
+    # 1. Search for explicit answer indicators across 15 Indian languages + English
     indicators = [
         # English / General
         r'(?:THE CORRECT ANSWER IS|ANSWER IS|CORRECT OPTION|OPTION|CHOICE|SO THE ANSWER IS|HENCE THE ANSWER IS|THE ANSWER SHOULD BE)\s*[:\-]*\s*([A-D])\b',
