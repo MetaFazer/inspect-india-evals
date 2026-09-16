@@ -23,7 +23,7 @@ Five evaluation modules, each targeting a different dimension of model behaviour
 
 | Module | Task | What it measures |
 |---|---|---|
-| `multilingual/` | `multilingual` | Factual accuracy (MMLU-style) across Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati, and English |
+| `multilingual/` | `multilingual` | Factual accuracy (MMLU-style) across 15 Indian languages plus English |
 | `bias/` | `bharatbbq` | Stereotype & social bias using the BharatBBQ benchmark — caste, religion, gender, region |
 | `safeguards/` | `multilingual_safety` | Whether the model refuses harmful prompts written in 5 Indian languages |
 | `safeguards/` | `jailbreak_safety` | Whether multi-turn jailbreak attacks (7 languages) succeed in extracting harmful content |
@@ -173,6 +173,31 @@ mlflow ui   # → open http://localhost:5000
 
 ---
 
+## Judge Model
+
+`multilingual_safety`, `jailbreak_safety`, `dpi_safety`, and `cultural_knowledge` use an LLM as a judge (on top of, or instead of, keyword matching). The judge must never be the same model as the one under evaluation — letting a model grade its own output (self-judging) biases scores upward.
+
+**Default judge:** `ollama/llama3.1:8b`
+
+**How to change it:**
+
+```bash
+# Environment variable (applies to every task.py run)
+export INDIA_EVALS_JUDGE=ollama/qwen2.5:32b
+
+# Or per-run, via the task parameter
+inspect eval india_evals/safeguards/task.py@multilingual_safety \
+    --model ollama/gemma2:27b \
+    -T judge_model=ollama/qwen2.5:32b
+
+# run_all.py
+python run_all.py --judge-model ollama/qwen2.5:32b
+```
+
+If the resolved judge ever matches the model under evaluation, the scorer prints a one-time warning to stderr (it does not raise, in case that's genuinely what you want) — check for it if your safety numbers look unexpectedly high. Every Score's metadata records the resolved `judge_model` name, so `.eval` logs always say which model graded them. `run_all.py` also refuses to start if `--judge-model` is one of `--models`.
+
+---
+
 ## Visual Heatmap Report
 
 Generate an interactive per-language × per-category HTML report from your eval logs:
@@ -248,9 +273,9 @@ report_path = india_evals.render_report(
 
 ### `multilingual` — Multilingual MMLU Accuracy
 
-Tests factual reasoning across 6 Indian languages using an MMLU-style multiple-choice format. Each question has one correct answer from options A–D.
+Tests factual reasoning across 15 Indian languages plus English using an MMLU-style multiple-choice format. Each question has one correct answer from options A–D.
 
-**Languages:** English, Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati  
+**Languages:** English, Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Assamese, Kannada, Konkani, Malayalam, Manipuri, Nepali, Odia, Punjabi, Urdu (2272 rows, 142 questions per language)  
 **Scorer:** Exact match (A/B/C/D)  
 **Metric:** Accuracy (0–1)
 
@@ -301,9 +326,9 @@ High-risk queries (how to spoof Aadhaar verification?) should be refused.
 
 ### `cultural_knowledge` — Indian Cultural Knowledge
 
-Open-ended questions graded against a 4-criterion rubric by an LLM judge. Tests knowledge of Indian constitutional law, healthcare system, economy, history, science & technology, geography, and culture.
+Open-ended questions graded against a 4-criterion rubric by an LLM judge. Tests knowledge of the Indian Constitution, healthcare system, history, state governance, and agriculture/MSP.
 
-**Dataset:** ~825 questions across 8+ domains  
+**Dataset:** 300 questions across 5 domains (Indian Constitution, Indian Healthcare, Indian History, State Governance, Agriculture and MSP). The paper's projected full-corpus figure of ~825 questions across 8+ domains has not yet been built out.  
 **Scorer:** LLM-as-judge rubric scoring (fraction of criteria passed)  
 **Metric:** Mean rubric score (0–1)
 
@@ -345,6 +370,13 @@ Keyword matching is fast, free, and works across all 7 languages without needing
 
 **Why rubric scoring for cultural knowledge?**  
 Cultural and constitutional questions have open-ended correct answers. A rubric of 4 specific factual criteria — graded by a judge model — gives a structured, reproducible score without needing a fixed expected answer.
+
+---
+
+## Known Limitations
+
+- **Results in the arXiv preprint (arXiv:2607.25375) predate the judge-model fix.** Earlier versions of `refusal_scorer`, `dpi_scorer`, and `rubric_scorer` defaulted the LLM judge to `get_model()` with no argument, which resolves to the model under evaluation — so the model being tested was judging its own output (self-judging bias). The safety and jailbreak numbers reported in that preprint were produced under this bug and should be treated as invalid pending a re-run with an independent judge model (see [Judge Model](#judge-model) above).
+- The `cultural_knowledge` dataset currently has 300 questions across 5 domains (Indian Constitution, Indian Healthcare, Indian History, State Governance, Agriculture and MSP) — smaller than the ~825-question, 8+-domain corpus projected in the paper.
 
 ---
 
